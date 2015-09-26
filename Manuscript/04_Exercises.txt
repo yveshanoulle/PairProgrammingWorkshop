@@ -1,15 +1,116 @@
-#Exercises {#Exercises}
+# Small Exercises {#Exercises}
 
-## SUM OF DIGITS - MIN AND MAX
+## Sum of digits  - Min and Max
 
 Write a program that generates 100 random numbers between 2000 and
 3000. Among the generated numbers find and display the number with
 the largest and smallest sum of digits.
 
 
-## SYMMETRIC NUMBERS
+## Symmetric numbers
 
 Write a program that generates 100 random numbers between 1000 and
 9999. Among the generated numbers find and display the number, which
 are "axially symmetric", which means that their records are of type XYYX
+
+## Equilibrated numbers
+
+Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find the number of type, for which the sum of tens and ones is equal to the sum hundreds and thousands.
+
+## Who and what
+
+Write a program that read from words (strings) from standard input.
+Every word starts with a large or small letter. The program reads up to 10
+words. After that the scratch starts with writing to standard output
+(screen). If the word begins with a capital letter (e. g., "Sarah"), it prints
+out the sentences: "Who? Sarah "and jumps on a new line. If the word
+starts with a small letter (e.g. "singing") displayed "What? singing, "and
+jumps in new line.
+
+## The number with the most devisors - Input
+
+Write a program that read from standard input integers. Inputs are
+between 1 and 1000. The user ends the entering with typing 0 Find the
+number with the maximum number of divisors.
+
+## “Root ing"
+
+Some numbers are very “nice” for rooting- the root of the number 16, for
+example, is precisely 4. With some of the numbers rooting is not easy at
+all- root of the number 15, for example, can not be expressed in any other way. The third group of numbers could be partially expressed by root. An example of this number is 80, since 80 = 16 * 5, then (root 80) = (root 16)  * (square root 5) = 4 * (root 5). This was partly roots 80, as it reminds under the root only 5.
+Write a program that will ask for an integer that is smaller than 30,000,
+and writes the partial roots.
+Input: 16
+Output: 4-TIMES SQRT OF 1
+Input: 15
+Output: 1- TIMES SQRT OF 15
+Input: 80
+Output: 4-TIMES SQRT OF 5
+
+## Gambling
+
+Lucky knows that gambling is a tough task. Write him a program that will
+simulate throwing dice so that the program will "throw" the cube as long
+as the sum of all outcomes does not exceed 100. The program should
+print out after each “throw” of the last outcome and the total sum. Finally,
+print out the total number of dice throws.
+
+
+## Anadiploza
+
+Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, anadiploza or not. The program doesn’t separate among small and large letters.
+
+## Sum of digits - Input
+
+Write a program that reads integers from standard input. Input numbers
+are between 1 and 1000. Entering numbers is ended with the typing 0.
+Find and print the number of with the biggest with of digits.
+
+## Two numbers with the most devisors
+
+Write a program that generates 100 random numbers between 2000 and
+5000. Among the generated numbers find and display two different
+numbers with the most divisors.
+
+## Divisible by the sum of digits
+
+Write a program that will print all those natural numbers between 2000
+and 5000 that are divisible by the sum of its digits. Print in each line the
+numbers and the sum of its digits. E.g.
+555 15
+...
+1000 1
+
+
+## Count vowels
+
+Write a program that creates two characters (sprites), one read 10 words. Words entered by user are strings of random ASCII characters to be completed by pressing Enter.
+Other character (sprite) counts and returns the number of vowels. The
+word may consist of large and / or lowercase letters. Display the word
+with the most vowels.
+
+## A large number - The sum of digits
+
+Write a program that reads the 20 digit number and print out the number
+of frequencies of '0 ', '1', '2 '.. '9' and the sum of its digits.
+
+## Stuttering
+
+Write a program that will stutter words. Program reads the following three
+characteristics (data), namely: the word that should be shuttered, how many characters from the beginning of words and the frequency of the shuttered part. The program should check the suitability of the data, which means that the number of shuttered signs can not exceed the length of the words and number of repetitions must be non-negative number. If data are not adequate, the program displays an appropriate message. The program ends with entering the word “END”.
+Examples:
+Word: kodak
+Word: panika
+Word: cry
+Word: end
+Num of ch: 2
+Num of ch: 2
+Num of ch: 1
+Frequency: 2
+Frequency: 0
+Frequency: 5
+Answer: kokodak
+Answer: nika
+Answer: cccccry
+
 
