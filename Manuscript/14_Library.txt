@@ -1,3 +1,32 @@
 # Library {#Library}
 
-+ [The Situational leader](http://www.amazon.com/dp/0446513423/), Paul Hersey
++ [You will never work alone again](http://www.slideshare.net/nashjain/pair-programming), Naresh Jain
++ [Promiscuous Pairing and Beginners Mind](http://www.mitchlacey.com/docs/XR4PromiscuousPairingandBeginnersMind.pdf), Mitch Lacey
+
++ [All I Really Need to Know about Pair Programming I Learned In Kindergarten](http://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF), Laurie A Williams
+
+
+
+http://www.britannica.com/bps/additionalcontent/18/34706583/Pair-Programming-as-a-Modern-Method-of-Teaching-Computer-Science
+http://www.pomodorotechnique.com/
+The Core Protocols http://alturl.com/b9fn
+The Costs and Benefits of Pair Programming (Laurie Williams & Alistair Cockburn)
+Strengthening the Case for Pair-Programming (- Laurie Williams, Robert R. Kessler, Ward Cunningham & Ron Jeffries)
+On the Economic Feasibility of Pair Programming (Hakan Erdogmus & Laurie Williams )
+http://www.netobjectives.com/ap/download/pairing.pdf
+http://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/
+http://salfreudenberg.wordpress.com/2013/06/15/pair-programming-uptake-and-peripheral-awareness/
+http://altabel.wordpress.com/2013/05/24/pair-programming-pluses-and-minuses-bonuses-and-anti-patterns/
+http://nat.truemesh.com/stairmaster.html#
+http://www.mitchlacey.com/docs/XR4PromiscuousPairingandBeginnersMind.pdf
+http://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF
+http://www.britannica.com/bps/additionalcontent/18/34706583/Pair-Programming-as-a-Modern-Method-of-Teaching-Computer-Science
+http://www.pomodorotechnique.com/
+The Core Protocols http://alturl.com/b9fn
+The Costs and Benefits of Pair Programming (Laurie Williams & Alistair Cockburn)
+Strengthening the Case for Pair-Programming (- Laurie Williams, Robert R. Kessler, Ward Cunningham & Ron Jeffries)
+On the Economic Feasibility of Pair Programming (Hakan Erdogmus & Laurie Williams )
+http://www.netobjectives.com/ap/download/pairing.pdf
+http://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/
+http://salfreudenberg.wordpress.com/2013/06/15/pair-programming-uptake-and-peripheral-awareness/
+http://altabel.wordpress.com/2013/05/24/pair-programming-pluses-and-minuses-bonuses-and-anti-patterns/
