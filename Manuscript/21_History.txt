@@ -1,0 +1,15 @@
+# History {#History}
+
+This workshop was invented in 2007. 
+
+**Versions**
+ 
++ Version 1.4  Mini conference for students
++ Version 2.8  Adapted for internal PairProgramming training
++ Version 3.11 Uploaded new version for public training
++ Version 4.15 Added extra material
++ Version 5.20 renamed presentation and removed content
++ Version 6.25 Created leanpub booklet + added Game Of Life
+
+
+
