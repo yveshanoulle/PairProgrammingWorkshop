@@ -11,3 +11,4 @@
 + [Pair Programming and expertise](http://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/), Sal Freudenberg
 + [Pair Programming uptake and Peripheral Awareness](http://salfreudenberg.wordpress.com/2013/06/15/pair-programming-uptake-and-peripheral-awareness/), Sal Freudenberg
 + [Pair programming: pluses and minuses, bonuses and anti-patterns](http://altabel.wordpress.com/2013/05/24/pair-programming-pluses-and-minuses-bonuses-and-anti-patterns/), Nadya Klim
++ [How to Piss off your pair](http://c2.com/cgi/wiki?HowToPissOffYourPair), The internet
