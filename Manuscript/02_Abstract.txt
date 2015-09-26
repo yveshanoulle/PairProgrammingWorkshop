@@ -2,12 +2,8 @@
 
 ##Description
 
-During the workshop you will experience pair programming. 
-
-
-##Expected benefits of participating
-
-##What did the session creators hope to learn?
+In a way pair programming is like riding a bicycle. You can read book about it, you can watch video’s from people doing so, you really learn it by doing so.
+With this workshop we would like people to experience what pair programming is.
 
 
 ##Process and timetable: 
@@ -16,7 +12,6 @@ During the workshop you will experience pair programming.
 
 + Introduction to speaker :  5 minutes
 + Introduction to group:  10 minutes (up to 20 people)
-
 + What
 + Why
 + Resistance
