@@ -1,1 +1,5 @@
 # Recommendations {#Recommendations}
+
+The outcome of the Pair Programming workshop came as a surprise. My intention was to convince my team to use pair programming more often and on their own initiative. It really worked! They followed the course with the same passion as Yves taught it. Each team member quickly saw the advantages during the practice part and that was all it took.
+
+Vincent Vanderheeren Agile change/ Kanban coach
