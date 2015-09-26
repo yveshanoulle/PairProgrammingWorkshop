@@ -39,15 +39,25 @@ number with the maximum number of divisors.
 ## “Root ing"
 
 Some numbers are very “nice” for rooting- the root of the number 16, for
-example, is precisely 4. With some of the numbers rooting is not easy at
-all- root of the number 15, for example, can not be expressed in any other way. The third group of numbers could be partially expressed by root. An example of this number is 80, since 80 = 16 * 5, then (root 80) = (root 16)  * (square root 5) = 4 * (root 5). This was partly roots 80, as it reminds under the root only 5.
+example, is precisely 4.
+With some of the numbers rooting is not easy at
+all- root of the number 15, for example, can not be expressed in any other way.
+
+The third group of numbers could be partially expressed by root. An example of this number is 80, since 80 = 16 * 5, then (root 80) = (root 16)  * (square root 5) = 4 * (root 5). This was partly roots 80, as it reminds under the root only 5.
+
 Write a program that will ask for an integer that is smaller than 30,000,
 and writes the partial roots.
+
 Input: 16
+
 Output: 4-TIMES SQRT OF 1
+
 Input: 15
+
 Output: 1- TIMES SQRT OF 15
+
 Input: 80
+
 Output: 4-TIMES SQRT OF 5
 
 ## Gambling
@@ -55,8 +65,8 @@ Output: 4-TIMES SQRT OF 5
 Lucky knows that gambling is a tough task. Write him a program that will
 simulate throwing dice so that the program will "throw" the cube as long
 as the sum of all outcomes does not exceed 100. The program should
-print out after each “throw” of the last outcome and the total sum. Finally,
-print out the total number of dice throws.
+print out after each “throw” of the last outcome and the total sum.
+Finally, print out the total number of dice throws.
 
 
 ## Anadiploza
@@ -79,7 +89,10 @@ numbers with the most divisors.
 
 Write a program that will print all those natural numbers between 2000
 and 5000 that are divisible by the sum of its digits. Print in each line the
-numbers and the sum of its digits. E.g.
+numbers and the sum of its digits.
+
+E.g.
+
 555 15
 ...
 1000 1
@@ -101,19 +114,33 @@ of frequencies of '0 ', '1', '2 '.. '9' and the sum of its digits.
 
 Write a program that will stutter words. Program reads the following three
 characteristics (data), namely: the word that should be shuttered, how many characters from the beginning of words and the frequency of the shuttered part. The program should check the suitability of the data, which means that the number of shuttered signs can not exceed the length of the words and number of repetitions must be non-negative number. If data are not adequate, the program displays an appropriate message. The program ends with entering the word “END”.
+
 Examples:
+
 Word: kodak
+
 Word: panika
+
 Word: cry
+
 Word: end
+
 Num of ch: 2
+
 Num of ch: 2
+
 Num of ch: 1
+
 Frequency: 2
+
 Frequency: 0
+
 Frequency: 5
+
 Answer: kokodak
+
 Answer: nika
+
 Answer: cccccry
 
 
