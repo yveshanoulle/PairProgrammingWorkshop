@@ -7,27 +7,22 @@ During the workshop you will experience pair programming.
 
 ##Expected benefits of participating
 
-Attendees will face a series of typical scaling challenges like: 
-+ team synchronisation
-+ efficiency
-+ standardisation
-+ optimisation of expertise
-+ distributed teams
-
 ##What did the session creators hope to learn?
 
-These days we have a few models for scaling teams. 
-With this game we want to experience scaling and observe what is happening. 
-With the different exercises we currently have and other we hope to invent, we hope to learn more about scaling dynamics.
 
 ##Process and timetable: 
 
-+ total time 90 min
++ total time 180 min
 
-+ Introduction to scaling issues:  5 minutes
-+ Round 1: warm up in local teams 5 minutes
-+ Round 2: multiple rounds solving different scaling issues with a partner team (total 20 minutes)  
-+ Round 3: multiple rounds solving different scaling issues with groups of 4 small teams collaborating (total 10 minutes)  
-+ Round 4: all teams have to collaborate in one large factory 10 minutes
-+ Small retrospective inside the teams 10 minutes
++ Introduction to speaker :  5 minutes
++ Introduction to group:  10 minutes (up to 20 people)
+
++ What
++ Why
++ Resistance
++ When
++ How
++ Smells
++ Small exercises
++ Large exercise
 + Large joined retrospective (at the end) 30 minutes
