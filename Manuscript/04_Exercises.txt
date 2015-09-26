@@ -1,6 +1,6 @@
 # Small Exercises {#Exercises}
 
-The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants.
+The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 15 minutes they will shift partner. 
 
 
 ## Sum of digits  - Min and Max
