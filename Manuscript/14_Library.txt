@@ -1,5 +1,6 @@
 # Library {#Library}
 
++ [Original discussion on PairProgramming in C2](http://c2.com/cgi/wiki?PairProgramming), C2
 + [You will never work alone again](http://www.slideshare.net/nashjain/pair-programming), Naresh Jain
 + [Promiscuous Pairing and Beginners Mind](http://www.mitchlacey.com/docs/XR4PromiscuousPairingandBeginnersMind.pdf), Mitch Lacey
 + [All I Really Need to Know about Pair Programming I Learned In Kindergarten](http://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF), Laurie A Williams
