@@ -11,11 +11,10 @@
 07_Feedback.txt
 
 14_Library.txt
-15_Supplies.txt
 
-16_Networking.txt
+
 17_Acknowledgments.txt
-18_OtherAgileGames.txt
+
 19_Authors.txt
 20_GameFeedback.txt
 
