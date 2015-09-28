@@ -11,3 +11,6 @@ We would like to **THANK**:
 
 + Eric Talboom
 
+**Bug fixes**
+
++ Peter Gfader ‏
