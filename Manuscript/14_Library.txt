@@ -14,3 +14,4 @@
 + [Pair programming: pluses and minuses, bonuses and anti-patterns](http://altabel.wordpress.com/2013/05/24/pair-programming-pluses-and-minuses-bonuses-and-anti-patterns/), Nadya Klim
 + [How to Piss off your pair](http://c2.com/cgi/wiki?HowToPissOffYourPair), The internet
 + [Pair programming Anti Patterns](https://www.youtube.com/watch?v=ReuFZYtGeCc), Naresh Jain, JB Rainsberger
++ [Pair Staircase](http://agilefaqs.com/pair-stairs.html)
