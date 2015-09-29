@@ -18,16 +18,20 @@
 + [Pair programming illuminated](),Williams, Kessler
 
 
-## Good books "every" developer should read
+## Great books "every" developer should read
 
-+ [About Face](),Alan Cooper
++ [About Face](http://www.amazon.com/About-Face-Essentials-Interaction-Design-ebook/dp/B00MFPZ9UY/),Alan Cooper
 + [Agile Retrospectives](), Esther Derby, Diana Larsen
++ [Beautiful Code](http://www.amazon.com/Beautiful-Code-Leading-Programmers-Practice-ebook/dp/B0026OR2NG),Andy Oram
++ [Beautiful Architecture: Leading Thinkers Reveal the Hidden Beauty in Software Design](http://www.amazon.com/Beautiful-Architecture-Leading-Thinkers-Software-ebook/dp/B0043GXMRA/),Diomidis Spinellis
++ [Cathedral and the Bazaar, the] (http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/), Eric S Raymond
++ [Clean Code](), Robert C. Martin
 + [Clean Coder](), Robert C. Martin
 + [Code Complete](),Steve McConnel
 + [Death March](), Yourdon
 + [Design of everyday things, the](), Donald A Norman
 + [Dynamics of software development](), Jim McCarthy
-+ [Extreme programming](),Kent Beck
++ [Extreme programming explained](),Kent Beck
 + [Goal, the ](),Goldratt
 + [How buildings learn](), Steward Brand
 + [Implementing lean software development](),Poppendieck
@@ -38,6 +42,9 @@
 + [Pragmatic Programmer, the ](),Hunt, Thomas
 + [Psychology of computer programming, the](),Jerry weinberg
 + [Rapid Development](),Steve McConnel
++ [Seven habits of effective people, the](),Stephan Covey
++ [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency-ebook/dp/B004SOVC2Y),Tom De marco
 + [Timeless way of Building, the](), Alexander
++ [Toyota way, the](), Jeffrey Liker
 + [Working effectivly with legacy code](),Michael C Feathers
 + [Writing Solid Code](),Steve Maguire
