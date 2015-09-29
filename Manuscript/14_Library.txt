@@ -21,23 +21,23 @@
 ## Good books "every" developer should read
 
 + [About Face](),Alan Cooper
-+ [Rapid Development](),Steve McConnel
-+ [Code Complete](),Steve McConnel
-+ [Writing Solid Code](),Steve Maguire
-+ [Object Thinking](), David West
++ [Agile Retrospectives](), Esther Derby, Diana Larsen
 + [Clean Coder](), Robert C. Martin
-+ [The Timeless way of Building](), Alexander
-+ [The Goal](),Goldratt
-+ [Implementing lean software development](),Poppendieck
-+ [Agile Retrospectives](),
-+ [The Pragmatic Programmer](),Hunt, Thomas
-+ [Lean In ](),Sheryl Sandberg
-+ [The Design of everyday things](), Donald A Norman
-+ [Extreme programming](),Kent Beck
-+ [Peopelware](),De Marco & Lister
++ [Code Complete](),Steve McConnel
 + [Death March](), Yourdon
-+ [The mythical man month](), Brooks
-+ [How buildings learn](), Steward Brand
-+ [The Psychology of computer programming](),Jerry weinberg
++ [Design of everyday things, the](), Donald A Norman
 + [Dynamics of software development](), Jim McCarthy
++ [Extreme programming](),Kent Beck
++ [Goal, the ](),Goldratt
++ [How buildings learn](), Steward Brand
++ [Implementing lean software development](),Poppendieck
++ [Lean In ](),Sheryl Sandberg
++ [Mythical man month, the](), Brooks
++ [Object Thinking](), David West
++ [Peopelware](),De Marco & Lister
++ [Pragmatic Programmer, the ](),Hunt, Thomas
++ [Psychology of computer programming, the](),Jerry weinberg
++ [Rapid Development](),Steve McConnel
++ [Timeless way of Building, the](), Alexander
 + [Working effectivly with legacy code](),Michael C Feathers
++ [Writing Solid Code](),Steve Maguire
