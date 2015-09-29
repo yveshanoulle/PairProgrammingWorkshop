@@ -15,3 +15,29 @@
 + [How to Piss off your pair](http://c2.com/cgi/wiki?HowToPissOffYourPair), The internet
 + [Pair programming Anti Patterns](https://www.youtube.com/watch?v=ReuFZYtGeCc), Naresh Jain, JB Rainsberger
 + [Pair Staircase](http://agilefaqs.com/pair-stairs.html)
++ [Pair programming illuminated](),Williams, Kessler
+
+
+**Good books "every" developer should read**
+
++ [About Face](),Alan Cooper
++ [Rapid Development](),Steve McConnel
++ [Code Complete](),Steve McConnel
++ [Writing Solid Code](),Steve Maguire
++ [Object Thinking](), David West
++ [Clean Coder](), Robert C. Martin
++ [The Timeless way of Building](), Alexander
++ [The Goal](),Goldratt
++ [Implementing lean software development](),Poppendieck
++ [Agile Retrospectives](),
++ [The Pragmatic Programmer](),Hunt, Thomas
++ [Lean In ](),Sheryl Sandberg
++ [The Design of everyday things](), Donald A Norman
++ [Extreme programming](),Kent Beck
++ [Peopelware](),De Marco & Lister
++ [Death March](), Yourdon
++ [The mythical man month](), Brooks
++ [How buildings learn](), Steward Brand
++ [The Psychology of computer programming](),Jerry weinberg
++ [Dynamics of software development](), Jim McCarthy
++ [Working effectivly with legacy code](),Michael C Feathers
