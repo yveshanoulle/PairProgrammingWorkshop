@@ -18,7 +18,7 @@
 + [Pair programming illuminated](),Williams, Kessler
 
 
-**Good books "every" developer should read**
+## Good books "every" developer should read
 
 + [About Face](),Alan Cooper
 + [Rapid Development](),Steve McConnel
