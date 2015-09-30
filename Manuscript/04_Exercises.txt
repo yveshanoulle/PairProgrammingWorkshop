@@ -73,11 +73,11 @@ Finally, print out the total number of dice throws.
 
 Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, anadiploza or not. The program doesn’t separate among small and large letters.
 
-## Sum of digits - Input
+## Number of digits - Input
 
 Write a program that reads integers from standard input. Input numbers
-are between 1 and 1000. Entering numbers is ended with the typing 0.
-Find and print the number of with the biggest with of digits.
+are between 1 and 1000. Entering numbers is ended with the typing X.
+Find and print the number with the biggest count of digits.
 
 ## Two numbers with the most devisors
 
