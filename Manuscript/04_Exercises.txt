@@ -71,7 +71,7 @@ Finally, print out the total number of dice throws.
 
 ## Anadiploza
 
-Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, anadiploza or not. The program doesn’t separate among small and large letters.
+Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, is an anadiploza or not. The program doesn’t separate among small and large letters.
 
 ## Number of digits - Input
 
