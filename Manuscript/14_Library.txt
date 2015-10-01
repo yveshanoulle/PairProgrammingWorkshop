@@ -22,6 +22,7 @@
 
 + [About Face](http://www.amazon.com/About-Face-Essentials-Interaction-Design-ebook/dp/B00MFPZ9UY/),Alan Cooper
 + [Agile Retrospectives](), Esther Derby, Diana Larsen
++ [Agile Software Development, Principles, Patterns, and Practices](http://www.amazon.com/dp/0135974445), Robert C. Martin
 + [Beautiful Code](http://www.amazon.com/Beautiful-Code-Leading-Programmers-Practice-ebook/dp/B0026OR2NG),Andy Oram
 + [Beautiful Architecture: Leading Thinkers Reveal the Hidden Beauty in Software Design](http://www.amazon.com/Beautiful-Architecture-Leading-Thinkers-Software-ebook/dp/B0043GXMRA/),Diomidis Spinellis
 + [Cathedral and the Bazaar, the] (http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/), Eric S Raymond
