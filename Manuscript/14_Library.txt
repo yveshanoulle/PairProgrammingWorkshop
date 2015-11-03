@@ -16,7 +16,8 @@
 + [Pair programming Anti Patterns](https://www.youtube.com/watch?v=ReuFZYtGeCc), Naresh Jain, JB Rainsberger
 + [Pair Staircase](http://agilefaqs.com/pair-stairs.html)
 + [Pair programming illuminated](),Williams, Kessler
-
++ [Rethinking Pair-Programming](https://www.voxxed.com/blog/2015/10/rethinking-pair-programming/), Sandro Mancuso
++ [Does PairProgramming work](Does #PairProgramming work ? https://davenicolette.wordpress.com/2013/07/06/does-pair-programming-work/ ), Dave Nicolette
 
 ## Great books "every" developer should read
 
