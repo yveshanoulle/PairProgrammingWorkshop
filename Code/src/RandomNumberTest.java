@@ -13,10 +13,11 @@ import sun.nio.cs.Surrogate.Generator;
 
 
 public class RandomNumberTest {
-
+	producer myProducer;
+	
 	@Before
 	public void setUp() throws Exception {
-		
+		myProducer = new producer();
 	}
 
 	@After
@@ -25,17 +26,22 @@ public class RandomNumberTest {
 
 	@Test
 	public void Contains_Hunderd_Numbers() {
-		producer myProducer = new producer();
-		
+				
 		assertEquals(100, myProducer.count());
 		
 	}
 
 	@Test
 	public void Is_Bigger_Then_1000() {
-		producer myProducer = new producer();
 		
 		assertTrue(myProducer.number(0)>1000);
+		
+	}
+
+	@Test
+	public void Is_Smaller_Then_9999() {
+		
+		assertTrue(myProducer.number(0)<9999);
 		
 	}
 
