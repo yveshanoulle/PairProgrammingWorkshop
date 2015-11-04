@@ -49,12 +49,18 @@ public class RandomNumberTest {
 	@Test
 	public void Only_Returns_Axially_Symmetric_Numbers() {
 		
-		int[] startNumbers ={1458,4587,1441,6996};
+		int[] startNumbers = {1458,4587,1441,6996};
+		
 		ArrayList<Integer> resultNumbers=myProducer.AxiallySymetrics(startNumbers);
 		
 		assertTrue(resultNumbers.size() ==2);
 		
 		
+	}
+	
+	@Test
+	public void Number_Is_Axially_Symmetric() {
+		assertTrue(myProducer.IsAxiallySymetric(1441));	
 	}
 	
 }
