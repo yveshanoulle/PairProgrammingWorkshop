@@ -1,10 +1,11 @@
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import sun.nio.cs.Surrogate.Generator;
 
 
 // Write a program that generates 100 random numbers between 1000 and
@@ -45,5 +46,15 @@ public class RandomNumberTest {
 		
 	}
 
+	@Test
+	public void Only_Returns_Axially_Symmetric_Numbers() {
+		
+		int[] startNumbers ={1458,4587,1441,6996};
+		ArrayList<Integer> resultNumbers=myProducer.AxiallySymetrics(startNumbers);
+		
+		assertTrue(resultNumbers.size() ==2);
+		
+		
+	}
 	
 }
