@@ -47,7 +47,7 @@ public class RandomNumberTest {
 	}
 
 	@Test
-	public void Only_Returns_Axially_Symmetric_Numbers() {
+	public void Only_Returns_Axially_Symmetric_Numbers() throws numberTooSmallException,numberTooBigException{
 		
 		int[] startNumbers = {1458,4587,1441,6996};
 		
@@ -59,22 +59,31 @@ public class RandomNumberTest {
 	}
 	
 	@Test
-	public void OneFourFourOne_Is_Axially_Symmetric() {
+	public void OneFourFourOne_Is_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertTrue(myProducer.IsAxiallySymetric(1441));	
 	}
 	
 	@Test
-	public void OneTwoThreeFour_Is_Not_Axially_Symmetric() {
+	public void OneTwoThreeFour_Is_Not_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1234));	
 	}
 	
-	@Test
-	public void OneTwoThreeOne_Is_Not_Axially_Symmetric() {
+	@Test ()
+	public void OneTwoThreeOne_Is_Not_Axially_Symmetric()throws numberTooSmallException ,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1231));	
 	}
 	
-	@Test
-	public void OneTwoTwoThree_Is_Not_Axially_Symmetric() {
+	@Test ()
+	public void OneTwoTwoThree_Is_Not_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1223));	
+	}
+	
+	@Test(expected = numberTooSmallException.class) 
+	public void OneFourOne_Is_TooSMall() throws numberTooSmallException,numberTooBigException {
+		myProducer.IsAxiallySymetric(141);	
+	}
+	@Test(expected = numberTooBigException.class) 
+	public void OneFourOne_Is_TooBig() throws numberTooSmallException,numberTooBigException {
+		myProducer.IsAxiallySymetric(14541);	
 	}
 }
