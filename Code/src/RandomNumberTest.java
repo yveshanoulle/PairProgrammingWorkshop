@@ -68,4 +68,13 @@ public class RandomNumberTest {
 		assertFalse(myProducer.IsAxiallySymetric(1234));	
 	}
 	
+	@Test
+	public void OneTwoThreeOne_Is_Not_Axially_Symmetric() {
+		assertFalse(myProducer.IsAxiallySymetric(1231));	
+	}
+	
+	@Test
+	public void OneTwoTwoThree_Is_Not_Axially_Symmetric() {
+		assertFalse(myProducer.IsAxiallySymetric(1223));	
+	}
 }
