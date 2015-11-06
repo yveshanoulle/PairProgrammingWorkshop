@@ -20,32 +20,27 @@ public class RandomNumberTest {
 	public void setUp() throws Exception {
 		myProducer = new producer();
 	}
-
 	@After
 	public void tearDown() throws Exception {
 	}
-
 	@Test
 	public void Contains_Hunderd_Numbers() {
 				
 		assertEquals(100, myProducer.count());
 		
 	}
-
 	@Test
 	public void Is_Bigger_Then_1000() {
 		
 		assertTrue(myProducer.number(0)>1000);
 		
 	}
-
 	@Test
 	public void Is_Smaller_Then_9999() {
 		
 		assertTrue(myProducer.number(0)<9999);
 		
 	}
-
 	@Test
 	public void Only_Returns_Axially_Symmetric_Numbers() throws numberTooSmallException,numberTooBigException{
 		
@@ -57,27 +52,22 @@ public class RandomNumberTest {
 		
 		
 	}
-	
 	@Test
 	public void OneFourFourOne_Is_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertTrue(myProducer.IsAxiallySymetric(1441));	
 	}
-	
 	@Test
 	public void OneTwoThreeFour_Is_Not_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1234));	
 	}
-	
 	@Test ()
 	public void OneTwoThreeOne_Is_Not_Axially_Symmetric()throws numberTooSmallException ,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1231));	
 	}
-	
 	@Test ()
 	public void OneTwoTwoThree_Is_Not_Axially_Symmetric() throws numberTooSmallException,numberTooBigException{
 		assertFalse(myProducer.IsAxiallySymetric(1223));	
 	}
-	
 	@Test(expected = numberTooSmallException.class) 
 	public void OneFourOne_Is_TooSMall() throws numberTooSmallException,numberTooBigException {
 		myProducer.IsAxiallySymetric(141);	

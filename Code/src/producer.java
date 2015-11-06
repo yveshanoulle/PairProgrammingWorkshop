@@ -2,14 +2,27 @@ import java.util.ArrayList;
 
 public class producer {
 
+	int MAX=100;
+	
+	int [] numbers;
+	
+	public producer()
+	{
+		numbers=new int [MAX];
+		for(int counter=0; counter<MAX; counter++){
+			numbers[counter]=4587;
+       }
+		
+	}
+	
 	public int count()
 	{	
-		return 100;
+		return numbers.length;
 	}
 	
 	public int number(int index )
 	{
-		return 4587;
+		return numbers[index];
 		
 	}
 	
