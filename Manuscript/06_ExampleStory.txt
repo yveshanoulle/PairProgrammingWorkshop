@@ -91,6 +91,7 @@ and quickly add’s two lines of code.
 
 
 ~~~~~~~
+
 Although the project no longer compiles, Alex is already eager to solve the test.
 He adds the producer class with one function and one line of code.
 
@@ -104,6 +105,7 @@ He adds the producer class with one function and one line of code.
     }
 
 ~~~~~~~
+
 Alex smiles as the test is run and for sure, the test is green. They are very well aware they faked it, yet they learned that they should only do the bare minimum and Alex knows that Charlie with jump on it the moment Alex would do more then just the bear minimum. And still they both realise that it still makes them feel that they are faking it. Oh well. Let’s start working on a new test that will make it a little better. 
 Charlie: “ehuhum”
 Alex looks up thinking “what did I forget? The test is gree”
@@ -111,6 +113,7 @@ Damned. Think, Red, Green, Refactor
 “Thanks”
 
 Alex grabs the keyboard again and rewrites the code little bit into:
+
 {lang=java}
 ~~~~~~~
 	@Test
@@ -122,6 +125,7 @@ Alex grabs the keyboard again and rewrites the code little bit into:
 	}
 
 ~~~~~~~
+
 Reruns the test, it stays green. 
 So now Alex add’s the test already in his mind.
 
@@ -136,6 +140,7 @@ So now Alex add’s the test already in his mind.
 	}
 
 ~~~~~~~
+
 Charlie is surprised, “oh I had not thought about testing this, I was already thinking about how we could be sure we had 100 numbers, but yes this forces me to actually have a number. “charlie pauses a little bit,” or does it?”
 With a big evil grin, Charlie put the coffee down and grabs the keyboard.
 
