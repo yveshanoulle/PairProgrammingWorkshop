@@ -5,10 +5,11 @@
 
 04_Exercises.txt
 05_LargeExercise.txt
+06_ExampleStory.txt
 
 
-06_Observation.txt
-07_Feedback.txt
+12_Observation.txt
+13_Feedback.txt
 
 14_Library.txt
 
