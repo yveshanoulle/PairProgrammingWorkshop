@@ -25,13 +25,12 @@ Alex plugs in his vertical mouse and grabs the keyboard. He launches eclipse and
 
 He creates a class RandomNumberTest  using the wizard and gets
 
-import static org.junit.Assert.*;
+    import static org.junit.Assert.*;
+    import org.junit.After;
+    import org.junit.Before;
+    import org.junit.Test;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-public class RandomNumberTest {
+    public class RandomNumberTest {
 
 	@Before
 	public void setUp() throws Exception {
@@ -46,19 +45,19 @@ public class RandomNumberTest {
 		fail("Not yet implemented");
 	}
 
-}
+    }
 
 As he hasn’t used Charlie’s machine in a while, he even runs the test. It’s red. 
 He smiles and hands the keyboard to Charlie. “it’s red your turn”
 
-Charlie looks at Alex, almost turning red himself, “oh you” then realizes it’s a joke, grabs the keyboard and laughs and says I’ll write you a red test.
+Charlie looks at Alex, almost turning red himself, “oh you” then realises it’s a joke, grabs the keyboard and laughs and says I’ll write you a red test.
 
 From a distant you might think Charlie and Alex are not getting along, yet in reality it’s this kind of jokes that releases their pressure. They have been in the same team for about 5 years. Just like with an older married couple they disagree on when they first met, other than that they get along really well.
 
 Charlie renames the test() test to containsHundredNumbers
 and quickly add’s two lines of code.
 
-@Test
+    @Test
 	public void containsHunderdNumbers() {
 		producer p = new producer();
 		
@@ -70,12 +69,13 @@ and quickly add’s two lines of code.
 Although the project no longer compiles, Alex is already eager to solve the test.
 He adds the producer class with one function and one line of code.
 
-public class producer {
+    public class producer {
 	public int count()
 	{	
 		return 100;
 	}
-}
+    }
+
 Alex smiles as the test is run and for sure, the test is green. They are very well aware they faked it, yet they learned that they should only do the bare minimum and Alex knows that Charlie with jump on it the moment Alex would do more then just the bear minimum. And still they both realise that it still makes them feel that they are faking it. Oh well. Let’s start working on a new test that will make it a little better. 
 Charlie: “ehuhum”
 Alex looks up thinking “what did I forget? The test is gree”
@@ -91,6 +91,7 @@ Alex grabs the keyboard again and rewrites the code little bit into:
 		assertEquals(100, myProducer.count());
 		
 	}
+
 Reruns the test, it stays green. 
 So now Alex add’s the test already in his mind.
 
@@ -112,19 +113,20 @@ public int number(int index )
 		return 4587;
 		
 	}
+
 and laughs out loud when the test is green.  And pushes everything to the source control system. 
- Alex realizes he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
-Alex focuses back to the screen, he realizes that Charlie has already refactored something and rerun the tests. Green again; 
+Alex realises he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
+Alex focuses back to the screen, he realises that Charlie has already refactored something and rerun the tests. Green again; 
 Alex: “Sorry, you are a little bit too fast for me.I got distracted by your committing, what were your refactoring?  
 Charlie:” How can a commit distract you? I did not put in a silly comment did I?” 
-Alex:” Nah, just embarassed I had not done it”
+Alex:” Nah, just embarrassed I had not done it”
 Charlie: “ah well, you did refactoring when I assumed you and I had not thought of that…”
 Alex:” looks like we need both of our brains this morning to have effective code”
 Charlie” yes and more coffee, let me get us some more, while you figure out the refactoring”
 
 Alex reads: 
 
-public class RandomNumberTest {
+    public class RandomNumberTest {
 	producer myProducer;
 	
 	@Before
@@ -151,25 +153,23 @@ public class RandomNumberTest {
 	}
 
 	
-}
+    }
 
 Mmm, Ok, so reusing myProducer, why not; I don’t think this will hold up, because we probably will split these tests into two classes later, but for now, yeah why not. 
 
 there seems to be a big queue at the coffee machine. Alex add’s another test while waiting for Charlie. 
-@Test
+    @Test
 	public void Is_Smaller_Then_9999() {
 		
 		assertTrue(myProducer.number(0)>9999);
 		
 	}
 
-Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the
-
-damned a copy paste error. 
+Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the *** damned a copy paste error. 
 
 Let’s quickly change that into
 
-@Test
+    @Test
 	public void Is_Smaller_Then_9999() {
 		
 		assertTrue(myProducer.number(0) < 9999);
@@ -194,7 +194,7 @@ And then pauses a bit, think how to do it.
 Alex: “What if you passing an array with both good and bad examples to a function and checking if the returns only has the Axially Symetrics “
 Charlies nods, “yes that will do”
 
-@Test
+    @Test
 	public void Only_Returns_Axially_Symmetric_Numbers() {
 		
 		int[] startNumbers ={1458,4587,1441,6996};
@@ -219,7 +219,7 @@ Alex commits the code.
 Charlie thinks:  “mm, the test name is not really correct. We are indeed only returning the Axially Symetrics numbers, but we are not testing that. Not sure yet what would be a better name.” 
 Yet while he is wondering about that, Alex already add the next test.
 
-@Test
+     @Test
 	public void Number_Is_Axially_Symmetric() {
 		assertTrue(myProducer.IsAxiallySymetric(1441));	
 	}
@@ -246,7 +246,7 @@ Commit the code and the changes the name of the test and adds another test.
 
 Alex cracks his fingers, thinks to himself, finally we can stop fooling the tests, let’s add some real code.
 
-public boolean IsAxiallySymetric(int numberToCheck)
+     public boolean IsAxiallySymetric(int numberToCheck)
 	{
 		int firstNumber;
 		int secondNumber;
@@ -265,7 +265,8 @@ public boolean IsAxiallySymetric(int numberToCheck)
 And yes it turns green
 
 Mike grins and says, “yes it’s green. Let me add another test”.
-@Test
+
+    @Test
 	public void OneTwoThreeOne_Is_Not_Axially_Symmetric() {
 		assertFalse(myProducer.IsAxiallySymetric(1231));	
 	}
@@ -274,7 +275,7 @@ Mike grins and says, “yes it’s green. Let me add another test”.
 Alex scratches his head, why is this one red? 
 oh right, a copy paste errror
 
-return (firstNumber==fourthNumber) && (secondNumber==thirdNumber) ;
+    return (firstNumber==fourthNumber) && (secondNumber==thirdNumber) ;
 
 
 Alex looks at Charlie and says: “so let’s take time to refactor a little bit of the fake crap out of this code.”
@@ -296,6 +297,7 @@ Alex re-aligns the keyboard and types:
 		}
 		return resultNumbers;
 	}
+
 Alex reruns the tests and they stay green.
 Charlie: you know as much as I hate the original function with the hard coded values, I’m glad we did it, because now I’m pretty confident that both the test and the code are working.
 
@@ -307,7 +309,7 @@ Alex: nonono, that is not what I’m saying, we can’t predict the future, so l
 
 Alex writes a new test
 
-@Test (expected=NumberTooSmallException.class) 
+    @Test (expected=NumberTooSmallException.class) 
 	public void OneFourOne_Is_TooSMall() {
 		myProducer.IsAxiallySymetric(141);	
 	}
@@ -324,7 +326,7 @@ Alex nods while drinking some more coffee.
 Charlie types:
 
 
-public class numberTooSmallException extends Exception {
+     public class numberTooSmallException extends Exception {
 
 	private static final long serialVersionUID = -4575631794769730131L;
 
@@ -335,11 +337,11 @@ public class numberTooSmallException extends Exception {
         super();
     }
 
-}
+    }
 
 and then continuous to change the IsAxiallySymetric function to 
 
-public boolean IsAxiallySymetric(int numberToCheck) throws numberTooSmallException
+     public boolean IsAxiallySymetric(int numberToCheck) throws numberTooSmallException
 	{
 		int firstNumber;
 		int secondNumber;
@@ -365,22 +367,23 @@ public boolean IsAxiallySymetric(int numberToCheck) throws numberTooSmallExcepti
 When eclipse warns about a missing format, Alex helps out by adding 
 
 
-@Test(expected = numberTooSmallException.class) 
+    @Test(expected = numberTooSmallException.class) 
 	public void OneFourOne_Is_TooSMall() throws numberTooSmallException {
 		myProducer.IsAxiallySymetric(141);	
 	}
+
 When the compiler no longer complains about this test, Alex makes the same change to the other tests, and fixes AxiallySymetrics along the way.
 Now everything compiles and they have 9 green tests.
 
 After the green build and the check in, Charlie adds the cousin test 
 
-@Test(expected = numberTooBigException.class) 
+    @Test(expected = numberTooBigException.class) 
 	public void OneFourOne_Is_TooBig() throws numberTooSmallException,numberTooBigException {
 		myProducer.IsAxiallySymetric(14541);	
 	}
 And as this is so trivial, Charlie also adds
 
- if ( numberToCheck > 9999) 
+    if ( numberToCheck > 9999) 
 		 {
 				throw new numberTooBigException ();
 		 }	
@@ -391,7 +394,7 @@ Alex: Now that we have 10 green test, and the real hard work done, only the cons
 
 Alex creates a first version of the constructor:
 
-public producer()
+    public producer()
 	{
 		numbers=new int [100];
 		for(int counter=0; counter<100; counter++){
@@ -403,7 +406,7 @@ Charlie: well we could be a little smarter and replace the 100, by a constant.
 Charlie adds int MAX=100;
 And goes on to replace 100 with MAX, even in the count function. 
 
-public int count()
+    public int count()
 	{	
 		return MAX;
 	}
@@ -414,7 +417,7 @@ Alex takes over again and “finishes” the constructor by adding:
 		numbers[counter]=4587;
 
 and then adjusts the number function to.
-public int number(int index )
+    public int number(int index )
 	{
 		return numbers[index];
 		
