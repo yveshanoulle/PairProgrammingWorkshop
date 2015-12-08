@@ -63,22 +63,7 @@ and quickly add’s two lines of code.
 
 {lang=java}
 ~~~~~~~
-    import static org.junit.Assert.*;
-    import org.junit.After;
-    import org.junit.Before;
-    import org.junit.Test;
-
-    public class RandomNumberTest {
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
-    leanpub-start-insert  
+   
     @Test
 	public void containsHunderdNumbers() {
 		producer p = new producer();
@@ -86,11 +71,8 @@ and quickly add’s two lines of code.
 		assertEquals(100, p.count());
 		
 	}
-    leanpub-end-insert
 
-	}
-
-~~~~~~~
+ ~~~~~~~
 
 Although the project no longer compiles, Alex is already eager to solve the test.
 He adds the producer class with one function and one line of code.
