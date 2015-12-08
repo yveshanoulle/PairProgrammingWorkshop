@@ -50,6 +50,7 @@ He creates a class RandomNumberTest  using the wizard and gets
     }
 
 ~~~~~~~
+
 As he hasn’t used Charlie’s machine in a while, he even runs the test. It’s red. 
 He smiles and hands the keyboard to Charlie. “it’s red your turn”
 
@@ -89,7 +90,6 @@ and quickly add’s two lines of code.
 
 	}
 
-
 ~~~~~~~
 
 Although the project no longer compiles, Alex is already eager to solve the test.
@@ -123,7 +123,6 @@ Alex grabs the keyboard again and rewrites the code little bit into:
 		assertEquals(100, myProducer.count());
 		
 	}
-
 ~~~~~~~
 
 Reruns the test, it stays green. 
@@ -144,14 +143,17 @@ So now Alex add’s the test already in his mind.
 Charlie is surprised, “oh I had not thought about testing this, I was already thinking about how we could be sure we had 100 numbers, but yes this forces me to actually have a number. “charlie pauses a little bit,” or does it?”
 With a big evil grin, Charlie put the coffee down and grabs the keyboard.
 
-Charlies writes 	
+Charlie writes 	
 
-{lang=“Java”} 
-public int number(int index )
+{lang=java}
+~~~~~~~
+
+     public int number(int index )
 	{
 		return 4587;
 		
 	}
+~~~~~~~
 
 and laughs out loud when the test is green.  And pushes everything to the source control system. 
 Alex realises he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
@@ -165,7 +167,9 @@ Charlie” yes and more coffee, let me get us some more, while you figure out th
 
 Alex reads: 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
+
     public class RandomNumberTest {
 	producer myProducer;
 	
@@ -195,11 +199,15 @@ Alex reads:
 	
     }
 
+~~~~~~~
+
 Mmm, Ok, so reusing myProducer, why not; I don’t think this will hold up, because we probably will split these tests into two classes later, but for now, yeah why not. 
 
 there seems to be a big queue at the coffee machine. Alex add’s another test while waiting for Charlie. 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
+ 
     @Test
 	public void Is_Smaller_Then_9999() {
 		
@@ -207,18 +215,23 @@ there seems to be a big queue at the coffee machine. Alex add’s another test w
 		
 	}
 
+~~~~~~~
+
 Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the *** damned a copy paste error. 
 
 Let’s quickly change that into
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     @Test
 	public void Is_Smaller_Then_9999() {
 		
 		assertTrue(myProducer.number(0) < 9999);
 		
 	}
- 
+
+~~~~~~~
+
 And now they have three green tests. 
 Alex commits the code and while accepts the coffee from Charlie, Alex thinks about refactoring, not really an opportunity here. 
 
@@ -227,17 +240,23 @@ Charlie: : “let me see”,  scans the code while taking one, no two sips of co
 
 Charlie starts with
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
+
 	@Test
 	public void Only_Returns_Axially_Symmetric_Numbers() {
 		
 	}
 
+~~~~~~~
+
 And then pauses a bit, think how to do it.
 Alex: “What if you passing an array with both good and bad examples to a function and checking if the returns only has the Axially Symetrics “
 Charlies nods, “yes that will do”
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
+
     @Test
 	public void Only_Returns_Axially_Symmetric_Numbers() {
 		
@@ -248,40 +267,51 @@ Charlies nods, “yes that will do”
 		
 	}
 
+~~~~~~~
+
 not the nicest code, but a good start. 
 Charlie passes the keyboard to Alex. Who add’s the next code.
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
 	public ArrayList<Integer> AxiallySymetrics(int[] startNumbers ) 
 	{
 		ArrayList<Integer> resultNumbers = new ArrayList<Integer>(Arrays.asList(1441, 6996));
 		return resultNumbers;
 	}
+~~~~~~~
 
 Runs the test. And it passes.
 Alex commits the code. 
 Charlie thinks:  “mm, the test name is not really correct. We are indeed only returning the Axially Symetrics numbers, but we are not testing that. Not sure yet what would be a better name.” 
 Yet while he is wondering about that, Alex already add the next test.
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
      @Test
 	public void Number_Is_Axially_Symmetric() {
 		assertTrue(myProducer.IsAxiallySymetric(1441));	
 	}
 
+~~~~~~~
+
 Charlie feels sidetracked he was more thinking about adding more tests and code about the array. Ah well, the function is really the core of the story so Alex is right we should start working on it. 
 
 He quickly writes 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~ 
 	public boolean IsAxiallySymetric(int numberToCheck)
 	{
 		return true;
 	}
+~~~~~~~
+
 yep stick to the basic. Turns green again. 
 Commit the code and the changes the name of the test and adds another test.
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
 	@Test
 	public void OneFourFourOne_Is_Axially_Symmetric() {
 		assertTrue(myProducer.IsAxiallySymetric(1441));	
@@ -292,9 +322,12 @@ Commit the code and the changes the name of the test and adds another test.
 		assertFalse(myProducer.IsAxiallySymetric(1234));	
 	}
 
+~~~~~~~
+
 Alex cracks his fingers, thinks to himself, finally we can stop fooling the tests, let’s add some real code.
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
      public boolean IsAxiallySymetric(int numberToCheck)
 	{
 		int firstNumber;
@@ -312,23 +345,29 @@ Alex cracks his fingers, thinks to himself, finally we can stop fooling the test
 		return (firstNumber==fourthNumber) && (firstNumber==fourthNumber) ;	
 	}
 
+~~~~~~~
+
 And yes it turns green
 
 Mike grins and says, “yes it’s green. Let me add another test”.
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     @Test
 	public void OneTwoThreeOne_Is_Not_Axially_Symmetric() {
 		assertFalse(myProducer.IsAxiallySymetric(1231));	
 	}
 
+~~~~~~~
 
 Alex scratches his head, why is this one red? 
 oh right, a copy paste errror
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     return (firstNumber==fourthNumber) && (secondNumber==thirdNumber) ;
 
+~~~~~~~
 
 Alex looks at Charlie and says: “so let’s take time to refactor a little bit of the fake crap out of this code.”
 Charlie nods: “yep, now we know the tests are working.”  
@@ -336,7 +375,8 @@ Charlie nods: “yep, now we know the tests are working.”
 Alex re-aligns the keyboard and types:
 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
 
 	public ArrayList<Integer> AxiallySymetrics(int[] startNumbers ) 
 	{
@@ -352,6 +392,8 @@ Alex re-aligns the keyboard and types:
 		return resultNumbers;
 	}
 
+~~~~~~~
+
 Alex reruns the tests and they stay green.
 Charlie: you know as much as I hate the original function with the hard coded values, I’m glad we did it, because now I’m pretty confident that both the test and the code are working.
 
@@ -363,11 +405,14 @@ Alex: nonono, that is not what I’m saying, we can’t predict the future, so l
 
 Alex writes a new test
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     @Test (expected=NumberTooSmallException.class) 
 	public void OneFourOne_Is_TooSMall() {
 		myProducer.IsAxiallySymetric(141);	
 	}
+
+~~~~~~~
 
 and passes the keyboard back to Charlie
 Charlie: but you learned the trick from the book I don’t
@@ -380,7 +425,8 @@ Alex nods while drinking some more coffee.
 
 Charlie types:
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~ 
      public class numberTooSmallException extends Exception {
 
 	private static final long serialVersionUID = -4575631794769730131L;
@@ -394,9 +440,12 @@ Charlie types:
 
     }
 
+~~~~~~~
+
 and then continuous to change the IsAxiallySymetric function to 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~ 
      public boolean IsAxiallySymetric(int numberToCheck) throws numberTooSmallException
 	{
 		int firstNumber;
@@ -420,39 +469,51 @@ and then continuous to change the IsAxiallySymetric function to
 		return (firstNumber==fourthNumber) && (secondNumber==thirdNumber);	
 	}
 
+~~~~~~~
+
 When eclipse warns about a missing format, Alex helps out by adding 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~ 
     @Test(expected = numberTooSmallException.class) 
 	public void OneFourOne_Is_TooSMall() throws numberTooSmallException {
 		myProducer.IsAxiallySymetric(141);	
 	}
+
+~~~~~~~
 
 When the compiler no longer complains about this test, Alex makes the same change to the other tests, and fixes AxiallySymetrics along the way.
 Now everything compiles and they have 9 green tests.
 
 After the green build and the check in, Charlie adds the cousin test 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     @Test(expected = numberTooBigException.class) 
 	public void OneFourOne_Is_TooBig() throws numberTooSmallException,numberTooBigException {
 		myProducer.IsAxiallySymetric(14541);	
 	}
+
+~~~~~~~
+
 And as this is so trivial, Charlie also adds
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     if ( numberToCheck > 9999) 
 		 {
 				throw new numberTooBigException ();
 		 }	
 
+~~~~~~~
 to IsAxiallySymetric, and then  fixes the thrown parameters for the tests 
 
 Alex: Now that we have 10 green test, and the real hard work done, only the constructor to fix that generates the random data and they are done. 
 
 Alex creates a first version of the constructor:
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     public producer()
 	{
 		numbers=new int [100];
@@ -461,30 +522,42 @@ Alex creates a first version of the constructor:
 		
 	}
 
+~~~~~~~
+
 Charlie: well we could be a little smarter and replace the 100, by a constant. 
 Charlie adds int MAX=100;
 And goes on to replace 100 with MAX, even in the count function. 
 
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
     public int count()
 	{	
 		return MAX;
 	}
+
+~~~~~~~
+
 Reruns the tests. They stay green.
 
 Alex takes over again and “finishes” the constructor by adding:
  
-{lang=“Java”} 
+{lang=java}
+~~~~~~~
 		numbers[counter]=4587;
+
+~~~~~~~
 
 and then adjusts the number function too.
 
-{lang=“Java”}   
+{lang=java}
+~~~~~~~  
   public int number(int index )
 	{
 		return numbers[index];
 		
 	}
+
+~~~~~~~
 
 Charlie takes another sip from the coffee and looks up, just in time to see all tests stay green. 
 
