@@ -25,6 +25,7 @@ Alex plugs in his vertical mouse and grabs the keyboard. He launches eclipse and
 
 He creates a class RandomNumberTest  using the wizard and gets
 
+{lang=“Java”} 
     import static org.junit.Assert.*;
     import org.junit.After;
     import org.junit.Before;
