@@ -58,7 +58,7 @@ From a distant you might think Charlie and Alex are not getting along, yet in re
 Charlie renames the test() test to containsHundredNumbers
 and quickly add’s two lines of code.
 
-    {lang=“Java”} 
+    {lang=“java”} 
     import static org.junit.Assert.*;
     import org.junit.After;
     import org.junit.Before;
@@ -89,7 +89,7 @@ and quickly add’s two lines of code.
 Although the project no longer compiles, Alex is already eager to solve the test.
 He adds the producer class with one function and one line of code.
 
-    {lang=“Java”} 
+    {lang=“java”} 
     public class producer {
 	public int count()
 	{	
