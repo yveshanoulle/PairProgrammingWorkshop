@@ -17,7 +17,7 @@ Check out the link to see how many steps I took since then.
 
 IÕm a big fan of parent pair work with their children. I have already given a presentation with my whole family in 2011 and since December 2014, IÕm giving pair presentations with my oldest son Joppe. 
 
-I have also released [anguis](https://play.google.com/store/apps/details?id=be.hanoulle.projame.android.anguis), a (Dutch) android game that I have parent pair programming written with Joppe.
+I have also released [anguis](https://www.anguis.be), a (Dutch) android game that I have parent pair programming written with Joppe.
 
 **Collaboration projects**
 
