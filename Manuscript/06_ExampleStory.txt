@@ -2,28 +2,26 @@
 
 In this chapter, we wrote an example of what ping pong programming could look like.
 
-Alex: Hi Charlie I’ll be right with you, let me first get a new coffee. Do you want your regular black with a bit of sugar?
-Charlie: Oh that would be nice Alex, yes it’s a C352 on the new machine.
+Alex: "Hi Charlie I'll be right with you, let me first get a new coffee. Do you want your regular black with a bit of sugar?"
 
-Meanwhile Charlie closes all the unnecessary applications that are open, wondering: “why do I keep so many thing open all the time? And these internet tabs? When did I last revisit check them? Oh look that was for that concert I want to go to. When is it again? Oh too bad that was last sunday. “
+Charlie: "Oh that would be nice Alex, yes it's a C352 on the new machine."
 
-Alex sits down handing a nice cup of favorite hot coffee.
-He also brought an index card with the user story Symmetric numbers that they had agreed to work on.
+Meanwhile Charlie closes all the unnecessary applications that are open, wondering: "Why do I keep so many thing open all the time? And these internet tabs? When did I last revisit check them? Oh look that was for that concert I want to go to. When is it again? Oh too bad that was last Sunday."
+
+Alex sits down handing a nice cup of favorite hot coffee. He also brought an index card with the user story Symmetric Numbers that they had agreed to work on.
 
 They look at it together:
+Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find and display the number, which are "axially symmetric", which means that their records are of type XYYX.
 
-Write a program that generates 100 random numbers between 1000 and
-9999. Among the generated numbers find and display the number, which
-are "axially symmetric", which means that their records are of type XYYX
+Charlie sips at his coffee and says: "These scientists seem to come up with ever crazier ideas."
 
-Charlie sips at his coffee and says: “these scientists seem to come up with ever crazier ideas.” 
-Alex chuckkles: “yeah, that’s a big part of what I like about this job, writing software for crazy Albert.“
+Alex chuckles: "Yeah, that's a big part of what I like about this job, writing software for crazy Albert."
 
-Although they haven’t started yet, they already make sure they are aligned. 
+Although they haven't started yet, they already make sure they are aligned.
 
-Alex plugs in his vertical mouse and grabs the keyboard. He launches eclipse and opens up the project where this story belongs. 
+Alex plugs in his vertical mouse and grabs the keyboard. He launches eclipse and opens up the project where this story belongs.
 
-He creates a class RandomNumberTest  using the wizard and gets
+He creates a class RandomNumberTest using the wizard and gets
 
 {lang=java}
 ~~~~~~~
@@ -34,528 +32,449 @@ He creates a class RandomNumberTest  using the wizard and gets
 
     public class RandomNumberTest {
 
-	@Before
-	public void setUp() throws Exception {
-	}
+      @Before
+      public void setUp() throws Exception {
+      }
 
-	@After
-	public void tearDown() throws Exception {
-	}
+      @After
+      public void tearDown() throws Exception {
+      }
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
+      @Test
+      public void test() {
+        fail("Not yet implemented");
+      }
     }
-
 ~~~~~~~
 
-As he hasn’t used Charlie’s machine in a while, he even runs the test. It’s red. 
-He smiles and hands the keyboard to Charlie. “it’s red your turn”
+As he hasn't used Charlie's machine in a while, he even runs the test. It's red.
+He smiles and hands the keyboard to Charlie. "It's red your turn."
 
-Charlie looks at Alex, almost turning red himself, “oh you” then realises it’s a joke, grabs the keyboard and laughs and says I’ll write you a red test.
+Charlie looks at Alex, almost turning red himself: "Oh you" then realises it's a joke", grabs the keyboard and laughs and says: "I'll write you a red test".
 
-From a distant you might think Charlie and Alex are not getting along, yet in reality it’s this kind of jokes that releases their pressure. They have been in the same team for about 5 years. Just like with an older married couple they disagree on when they first met, other than that they get along really well.
+From a distant you might think Charlie and Alex are not getting along, yet in reality it's this kind of jokes that releases their pressure. They have been in the same team for about 5 years. Just like with an older married couple they disagree on when they first met, other than that they get along really well.
 
-Charlie renames the test() test to containsHundredNumbers
-and quickly add’s two lines of code.
+Charlie renames the _test()_ test to _containsHundredNumbers_ and quickly add's two lines of code.
 
 {lang=java}
 ~~~~~~~
-   
     @Test
-	public void containsHunderdNumbers() {
-		producer p = new producer();
-		
-		assertEquals(100, p.count());
-		
-	}
-
+    public void containsHunderdNumbers() {
+      Producer p = new Producer();
+      assertEquals(100, p.count());
+    }
  ~~~~~~~
 
 Although the project no longer compiles, Alex is already eager to solve the test.
-He adds the producer class with one function and one line of code.
+He adds the _Producer_ class with one function and one line of code.
 
 {lang=java}
 ~~~~~~~
-    public class producer {
-	public int count()
-	{	
-		return 100;
-	}
+    public class Producer {
+      public int count() {
+        return 100;
+      }
     }
-
 ~~~~~~~
 
-Alex smiles as the test is run and for sure, the test is green. They are very well aware they faked it, yet they learned that they should only do the bare minimum and Alex knows that Charlie with jump on it the moment Alex would do more then just the bear minimum. And still they both realise that it still makes them feel that they are faking it. Oh well. Let’s start working on a new test that will make it a little better. 
-Charlie: “ehuhum”
-Alex looks up thinking “what did I forget? The test is gree”
-Damned. Think, Red, Green, Refactor
-“Thanks”
+Alex smiles as the test is run and for sure, the test is green. They are very well aware they faked it, yet they learned that they should only do the bare minimum and Alex knows that Charlie with jump on it the moment Alex would do more then just the bear minimum. And still they both realise that it still makes them feel that they are faking it. Oh well. Let's start working on a new test that will make it a little better.
+
+Charlie: "Ehuhum", Alex looks up thinking: "What did I forget? The test is green. Damned. Think, Red, Green, Refactor. Thanks!"
 
 Alex grabs the keyboard again and rewrites the code little bit into:
 
 {lang=java}
 ~~~~~~~
-	@Test
-	public void contains_Hunderd_Numbers() {
-		producer myProducer = new producer();
-		
-		assertEquals(100, myProducer.count());
-		
-	}
+    @Test
+    public void containsHunderdNumbers() {
+	  Producer myProducer = new Producer();
+      assertEquals(100, myProducer.count());
+    }
 ~~~~~~~
 
-Reruns the test, it stays green. 
-So now Alex add’s the test already in his mind.
+Reruns the test, it stays green.
+So now Alex add's the test already in his mind.
 
 {lang=java}
 ~~~~~~~
 	@Test
-	public void Is_Bigger_Then_1000() {
-		
+	public void isBiggerThen1000() {
 		producer myProducer = new producer();
-		assertTrue(myProducer.number(0)>1000);
-		
+		assertTrue(myProducer.number(0) > 1000);
 	}
-
 ~~~~~~~
 
-Charlie is surprised, “oh I had not thought about testing this, I was already thinking about how we could be sure we had 100 numbers, but yes this forces me to actually have a number. “charlie pauses a little bit,” or does it?”
+Charlie is surprised: "Oh I had not thought about testing this, I was already thinking about how we could be sure we had 100 numbers, but yes this forces me to actually have a number." Charlie pauses a little bit: "Or does it?"
 With a big evil grin, Charlie put the coffee down and grabs the keyboard.
 
-Charlie writes 	
+Charlie writes
 
 {lang=java}
 ~~~~~~~
-
-     public int number(int index )
-	{
-		return 4587;
-		
-	}
-~~~~~~~
-
-and laughs out loud when the test is green.  And pushes everything to the source control system. 
-Alex realises he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
-Alex focuses back to the screen, he realises that Charlie has already refactored something and rerun the tests. Green again; 
-Alex: “Sorry, you are a little bit too fast for me.I got distracted by your committing, what were your refactoring?  
-Charlie:” How can a commit distract you? I did not put in a silly comment did I?” 
-Alex:” Nah, just embarrassed I had not done it”
-Charlie: “ah well, you did refactoring when I assumed you and I had not thought of that…”
-Alex:” looks like we need both of our brains this morning to have effective code”
-Charlie” yes and more coffee, let me get us some more, while you figure out the refactoring”
-
-Alex reads: 
-
-{lang=java}
-~~~~~~~
-
-    public class RandomNumberTest {
-	producer myProducer;
-	
-	@Before
-	public void setUp() throws Exception {
-		myProducer = new producer();
-	}
-
-	@After
-	public void tearDown() throws Exception {
-	}
-
-	@Test
-	public void Contains_Hunderd_Numbers() {
-				
-		assertEquals(100, myProducer.count());
-		
-	}
-
-	@Test
-	public void Is_Bigger_Then_1000() {
-		
-		assertTrue(myProducer.number(0)>1000);
-		
-	}
-
-	
+    public int number(int index ) {
+      return 4587;
     }
-
 ~~~~~~~
 
-Mmm, Ok, so reusing myProducer, why not; I don’t think this will hold up, because we probably will split these tests into two classes later, but for now, yeah why not. 
+and laughs out loud when the test is green. And pushes everything to the source control system.
 
-there seems to be a big queue at the coffee machine. Alex add’s another test while waiting for Charlie. 
+Alex realises he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
+
+Alex focuses back to the screen, he realises that Charlie has already refactored something and rerun the tests. Green again.
+
+Alex: "Sorry, you are a little bit too fast for me.I got distracted by your committing, what were your refactoring?
+
+Charlie: "How can a commit distract you? I did not put in a silly comment did I?"
+
+Alex: "Nah, just embarrassed I had not done it."
+
+Charlie: "Ah well, you did refactoring when I assumed you and I had not thought of that…"
+
+Alex: "Looks like we need both of our brains this morning to have effective code "Charlie" yes and more coffee, let me get us some more, while you figure out the refactoring."
+
+Alex reads:
 
 {lang=java}
 ~~~~~~~
- 
-    @Test
-	public void Is_Smaller_Then_9999() {
-		
-		assertTrue(myProducer.number(0)>9999);
-		
-	}
+    public class RandomNumberTest {
+      Producer myProducer;
 
+      @Before
+      public void setUp() throws Exception {
+        myProducer = new Producer();
+      }
+
+      @After
+      public void tearDown() throws Exception {
+      }
+
+      @Test
+      public void containsHunderdNumbers() {
+        assertEquals(100, myProducer.count());
+      }
+
+      @Test
+      public void isBiggerThen1000() {
+        assertTrue(myProducer.number(0) > 1000);
+      }
+    }
 ~~~~~~~
 
-Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the *** damned a copy paste error. 
+"Hmm, Ok, so reusing _myProducer_, why not; I don't think this will hold up, because we probably will split these tests into two classes later, but for now, yeah why not."
 
-Let’s quickly change that into
+There seems to be a big queue at the coffee machine. Alex add's another test while waiting for Charlie.
 
 {lang=java}
 ~~~~~~~
     @Test
-	public void Is_Smaller_Then_9999() {
-		
-		assertTrue(myProducer.number(0) < 9999);
-		
-	}
-
+    public void isSmallerThen9999() {
+		  assertTrue(myProducer.number(0) > 9999);
+    }
 ~~~~~~~
 
-And now they have three green tests. 
-Alex commits the code and while accepts the coffee from Charlie, Alex thinks about refactoring, not really an opportunity here. 
+Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the * damned a copy paste error.
 
-Alex: “I don’t see anything I can refactor now, so let’ start immediately with a new test.” 
-Charlie: : “let me see”,  scans the code while taking one, no two sips of coffee: “no I guess you are right”.
+Let's quickly change that into
+
+{lang=java}
+~~~~~~~
+    @Test
+    public void isSmallerThen9999() {
+      assertTrue(myProducer.number(0) < 9999);
+    }
+~~~~~~~
+
+And now they have three green tests. Alex commits the code and while accepts the coffee from Charlie, Alex thinks about refactoring, not really an opportunity here.
+
+Alex: "I don't see anything I can refactor now, so let' start immediately with a new test."
+
+Charlie:: "Let me see", scans the code while taking one, no two sips of coffee: "No I guess you are right".
 
 Charlie starts with
 
 {lang=java}
 ~~~~~~~
+    @Test
+    public void onlyReturnsAxiallySymmetricNumbers() {
 
-	@Test
-	public void Only_Returns_Axially_Symmetric_Numbers() {
-		
-	}
-
+    }
 ~~~~~~~
 
 And then pauses a bit, think how to do it.
-Alex: “What if you passing an array with both good and bad examples to a function and checking if the returns only has the Axially Symetrics “
-Charlies nods, “yes that will do”
+
+Alex: "What if you passing an array with both good and bad examples to a function and checking if the returns only has the Axially Symetrics". Charlies nods: "Yes that will do."
 
 {lang=java}
 ~~~~~~~
-
     @Test
-	public void Only_Returns_Axially_Symmetric_Numbers() {
-		
-		int[] startNumbers ={1458,4587,1441,6996};
-		ArrayList<Integer> resultNumbers=myProducer.AxiallySymetrics(startNumbers);	
-		assertTrue(resultNumbers.size() ==2);
-		
-		
-	}
-
+    public void onlyReturnsAxiallySymmetricNumbers() {
+      int[] startNumbers = {1458, 4587, 1441, 6996};
+      ArrayList<Integer> resultNumbers = myProducer.axiallySymetrics(startNumbers);
+      assertTrue(resultNumbers.size() == 2);
+    }
 ~~~~~~~
 
-not the nicest code, but a good start. 
-Charlie passes the keyboard to Alex. Who add’s the next code.
+Not the nicest code, but a good start. Charlie passes the keyboard to Alex. Who add's the next code.
 
 {lang=java}
 ~~~~~~~
-	public ArrayList<Integer> AxiallySymetrics(int[] startNumbers ) 
-	{
-		ArrayList<Integer> resultNumbers = new ArrayList<Integer>(Arrays.asList(1441, 6996));
-		return resultNumbers;
-	}
+    public ArrayList<Integer> axiallySymetrics(int[] startNumbers ) {
+      ArrayList<Integer> resultNumbers = new ArrayList<Integer>(Arrays.asList(1441, 6996));
+      return resultNumbers;
+    }
 ~~~~~~~
 
-Runs the test. And it passes.
-Alex commits the code. 
-Charlie thinks:  “mm, the test name is not really correct. We are indeed only returning the Axially Symetrics numbers, but we are not testing that. Not sure yet what would be a better name.” 
+Runs the test. And it passes. Alex commits the code.
+
+Charlie thinks: "Hm, the test name is not really correct. We are indeed only returning the Axially Symmetric numbers, but we are not testing that. Not sure yet what would be a better name." 
+
 Yet while he is wondering about that, Alex already add the next test.
 
 {lang=java}
 ~~~~~~~
-     @Test
-	public void Number_Is_Axially_Symmetric() {
-		assertTrue(myProducer.IsAxiallySymetric(1441));	
-	}
-
+    @Test
+    public void numberIsAxiallySymmetric() {
+      assertTrue(myProducer.isAxiallySymetric(1441));
+    }
 ~~~~~~~
 
-Charlie feels sidetracked he was more thinking about adding more tests and code about the array. Ah well, the function is really the core of the story so Alex is right we should start working on it. 
+Charlie feels sidetracked he was more thinking about adding more tests and code about the array. Ah well, the function is really the core of the story so Alex is right we should start working on it.
 
-He quickly writes 
+He quickly writes
 
 {lang=java}
-~~~~~~~ 
-	public boolean IsAxiallySymetric(int numberToCheck)
-	{
-		return true;
-	}
+~~~~~~~
+    public boolean isAxiallySymetric(int numberToCheck) {
+      return true;
+    }
 ~~~~~~~
 
-yep stick to the basic. Turns green again. 
+Yep stick to the basic. Turns green again.
 Commit the code and the changes the name of the test and adds another test.
 
 {lang=java}
 ~~~~~~~
 	@Test
-	public void OneFourFourOne_Is_Axially_Symmetric() {
-		assertTrue(myProducer.IsAxiallySymetric(1441));	
-	}
-	
-	@Test
-	public void OneTwoThreeFour_Is_Not_Axially_Symmetric() {
-		assertFalse(myProducer.IsAxiallySymetric(1234));	
-	}
+    public void oneFourFourOneIsAxiallySymmetric() {
+      assertTrue(myProducer.isAxiallySymetric(1441));
+    }
 
+    @Test
+    public void oneTwoThreeFourIsNotAxiallySymmetric() {
+      assertFalse(myProducer.isAxiallySymetric(1234));
+    }
 ~~~~~~~
 
-Alex cracks his fingers, thinks to himself, finally we can stop fooling the tests, let’s add some real code.
+Alex cracks his fingers, thinks to himself, finally we can stop fooling the tests, let's add some real code.
 
 {lang=java}
 ~~~~~~~
-     public boolean IsAxiallySymetric(int numberToCheck)
-	{
-		int firstNumber;
-		int secondNumber;
-		int thirdNumber;
-		int fourthNumber;
-		String stringNumber;
-		
-		stringNumber=Integer.toString(numberToCheck);
-		firstNumber=(int)stringNumber.charAt(0);
-		secondNumber=(int)stringNumber.charAt(1);
-		thirdNumber=(int)stringNumber.charAt(2);
-		fourthNumber=(int)stringNumber.charAt(3);
-		
-		return (firstNumber==fourthNumber) && (firstNumber==fourthNumber) ;	
-	}
+    public boolean isAxiallySymetric(int numberToCheck) {
+	  int firstNumber;
+	  int secondNumber;
+	  int thirdNumber;
+	  int fourthNumber;
+  	  String stringNumber;
 
+      stringNumber = Integer.toString(numberToCheck);
+      firstNumber = (int) stringNumber.charAt(0);
+      secondNumber = (int) stringNumber.charAt(1);
+      thirdNumber = (int) stringNumber.charAt(2);
+      fourthNumber = (int) stringNumber.charAt(3);
+
+      return (firstNumber == fourthNumber) && (firstNumber == fourthNumber) ;
+    }
 ~~~~~~~
 
-And yes it turns green
+And yes it turns green.
 
-Mike grins and says, “yes it’s green. Let me add another test”.
+Mike grins and says: "Yes it's green. Let me add another test".
 
 {lang=java}
 ~~~~~~~
     @Test
-	public void OneTwoThreeOne_Is_Not_Axially_Symmetric() {
-		assertFalse(myProducer.IsAxiallySymetric(1231));	
-	}
-
+    public void oneTwoThreeOneIsNotAxiallySymmetric() {
+      assertFalse(myProducer.isAxiallySymetric(1231));
+    }
 ~~~~~~~
 
-Alex scratches his head, why is this one red? 
-oh right, a copy paste errror
+Alex scratches his head, why is this one red? "Oh right, a copy paste error."
 
 {lang=java}
 ~~~~~~~
-    return (firstNumber==fourthNumber) && (secondNumber==thirdNumber) ;
-
+      return (firstNumber == fourthNumber) && (secondNumber == thirdNumber) ;
 ~~~~~~~
 
-Alex looks at Charlie and says: “so let’s take time to refactor a little bit of the fake crap out of this code.”
-Charlie nods: “yep, now we know the tests are working.”  
+Alex looks at Charlie and says: "So let's take time to refactor a little bit of the fake crap out of this code."
 
-Alex re-aligns the keyboard and types:
+Charlie nods: "yep, now we know the tests are working."
 
+Alex realigns the keyboard and types:
 
 {lang=java}
 ~~~~~~~
+    public ArrayList<Integer> axiallySymetrics(int[] startNumbers) {
+      ArrayList<Integer> resultNumbers = new ArrayList<Integer>();
 
-	public ArrayList<Integer> AxiallySymetrics(int[] startNumbers ) 
-	{
-		ArrayList<Integer> resultNumbers = new ArrayList<Integer>();
-		
-		for (int intValue : startNumbers) 
-		{
-			if (IsAxiallySymetric(intValue))
-			{
-				resultNumbers.add(intValue);
-			}
-		}
-		return resultNumbers;
-	}
-
+      for (int intValue: startNumbers) {
+        if (isAxiallySymetric(intValue)) {
+          resultNumbers.add(intValue);
+        }
+      }
+      return resultNumbers;
+    }
 ~~~~~~~
 
 Alex reruns the tests and they stay green.
-Charlie: you know as much as I hate the original function with the hard coded values, I’m glad we did it, because now I’m pretty confident that both the test and the code are working.
+Charlie: you know as much as I hate the original function with the hard coded values, I'm glad we did it, because now I'm pretty confident that both the test and the code are working.
 
-Alex: that is true, yet we did make an assumption in the IsAxiallySymetric function.
-Charlie: yeah well it’s part of the spec that we would only get numbers that are between 1000 and 9999. 
-Alex: that is true, still I think we should assert for it, remember the ariane 5 bug? The rocket exploded because of a limitation in ariane 4, that no longer existed in 5, yet the code assumed it. We better protect ourselves from such a future change. 
-Charlie: you are right, the scientist are crazy enough to change their mind anyway. SO we are going to make the function work with any number?
-Alex: nonono, that is not what I’m saying, we can’t predict the future, so let’s not try this, remember we have to ship this thing. What we can do is verify that when we get the wrong kind of number that our function raises an error. Remember the code complete book I told you you should read? That’s the book where I learned that from.
+Alex: "That is true, yet we did make an assumption in the isAxiallySymetric function."
 
-Alex writes a new test
+Charlie: "Yeah well it's part of the spec that we would only get numbers that are between 1000 and 9999."
+
+Alex: "That is true, still I think we should assert for it, remember the Ariane 5 bug? The rocket exploded because of a limitation in ariane 4, that no longer existed in 5, yet the code assumed it. We better protect ourselves from such a future change."
+
+Charlie: "You are right, the scientist are crazy enough to change their mind anyway. So we are going to make the function work with any number?"
+
+Alex: "Nonono, that is not what I'm saying, we can't predict the future, so let's not try this, remember we have to ship this thing. What we can do is verify that when we get the wrong kind of number that our function raises an error. Remember the code complete book I told you you should read? That's the book where I learned that from."
+
+Alex writes a new test.
 
 {lang=java}
 ~~~~~~~
-    @Test (expected=NumberTooSmallException.class) 
-	public void OneFourOne_Is_TooSMall() {
-		myProducer.IsAxiallySymetric(141);	
-	}
-
+    @Test (expected=NumberTooSmallException.class)
+    public void oneFourOneIsTooSMall() {
+      myProducer.isAxiallySymetric(141);
+    }
 ~~~~~~~
 
 and passes the keyboard back to Charlie
-Charlie: but you learned the trick from the book I don’t
-Alex: yeah yeah, the fastest way to learn is just do it. 
-Charlie:” …, I should have read the damn book..” 
-Alexs put on his evil grin. “That would have worked too.”
 
-Charlie: lets see; you are expecting an exception that I don’t know. I assume I have to create it myself?
+Charlie: "But you learned the trick from the book I don't"
+
+Alex: "Yeah yeah, the fastest way to learn is just do it."
+
+Charlie: "…, I should have read the damn book.."
+
+Alexs put on his evil grin: "That would have worked too."
+
+Charlie: "Lets see; you are expecting an exception that I don't know. I assume I have to create it myself?"
+
 Alex nods while drinking some more coffee.
 
 Charlie types:
 
 {lang=java}
-~~~~~~~ 
-     public class numberTooSmallException extends Exception {
+~~~~~~~
+  public class NumberTooSmallException extends Exception {
+    private static final long serialVersionUID = 0L;
 
-	private static final long serialVersionUID = -4575631794769730131L;
+    public NumberTooSmallException() {}
 
-	public numberTooSmallException(String message) {
-	        super(message);
-	    }
-	public numberTooSmallException() {
-        super();
-        }
-
+    public NumberTooSmallException(String message) {
+      super(message);
     }
 
+  }
 ~~~~~~~
 
-and then continuous to change the IsAxiallySymetric function to 
+and then continuous to change the _isAxiallySymetric_ function to
 
 {lang=java}
-~~~~~~~ 
-     public boolean IsAxiallySymetric(int numberToCheck) throws numberTooSmallException
-	{
-		int firstNumber;
-		int secondNumber;
-		int thirdNumber;
-		int fourthNumber;
-		String stringNumber;
-		
-		 if ( numberToCheck < 1001) 
-		 {
-				throw new numberTooSmallException ();
-		 }	
-			
-		 
-		stringNumber=Integer.toString(numberToCheck);
-		firstNumber=(int)stringNumber.charAt(0);
-		secondNumber=(int)stringNumber.charAt(1);
-		thirdNumber=(int)stringNumber.charAt(2);
-		fourthNumber=(int)stringNumber.charAt(3);
-		
-		return (firstNumber==fourthNumber) && (secondNumber==thirdNumber);	
-	}
+~~~~~~~
+    public boolean isAxiallySymetric(int numberToCheck) throws NumberTooSmallException {
+      int firstNumber;
+      int secondNumber;
+	  int thirdNumber;
+	  int fourthNumber;
+      String stringNumber;
 
+      if (numberToCheck < 1001) {
+        throw new NumberTooSmallException();
+      }
+
+      stringNumber = Integer.toString(numberToCheck);
+      firstNumber = (int) stringNumber.charAt(0);
+      secondNumber = (int) stringNumber.charAt(1);
+      thirdNumber = (int) stringNumber.charAt(2);
+      fourthNumber = (int) stringNumber.charAt(3);
+
+      return (firstNumber == fourthNumber) && (secondNumber == thirdNumber);
+    }
 ~~~~~~~
 
-When eclipse warns about a missing format, Alex helps out by adding 
+When eclipse warns about a missing format, Alex helps out by adding
 
 {lang=java}
-~~~~~~~ 
-    @Test(expected = numberTooSmallException.class) 
-	public void OneFourOne_Is_TooSMall() throws numberTooSmallException {
-		myProducer.IsAxiallySymetric(141);	
-	}
-
+~~~~~~~
+    @Test(expected = NumberTooSmallException.class)
+    public void oneFourOneIsTooSmall() throws NumberTooSmallException {
+		  myProducer.isAxiallySymetric(141);
+    }
 ~~~~~~~
 
 When the compiler no longer complains about this test, Alex makes the same change to the other tests, and fixes AxiallySymetrics along the way.
 Now everything compiles and they have 9 green tests.
 
-After the green build and the check in, Charlie adds the cousin test 
+After the green build and the check in, Charlie adds the cousin test.
 
 {lang=java}
 ~~~~~~~
-    @Test(expected = numberTooBigException.class) 
-	public void OneFourOne_Is_TooBig() throws numberTooSmallException,numberTooBigException {
-		myProducer.IsAxiallySymetric(14541);	
-	}
-
+    @Test(expected = NumberTooBigException.class)
+    public void oneFourOneIsTooBig() throws NumberTooSmallException, NumberTooBigException {
+      myProducer.isAxiallySymetric(14541);
+    }
 ~~~~~~~
 
 And as this is so trivial, Charlie also adds
 
 {lang=java}
 ~~~~~~~
-    if ( numberToCheck > 9999) 
-		 {
-				throw new numberTooBigException ();
-		 }	
-
+      if (numberToCheck > 9999){
+        throw new NumberTooBigException();
+      }
 ~~~~~~~
-to IsAxiallySymetric, and then  fixes the thrown parameters for the tests 
 
-Alex: Now that we have 10 green test, and the real hard work done, only the constructor to fix that generates the random data and they are done. 
+to isAxiallySymetric, and then fixes the thrown parameters for the tests
+
+Alex: Now that we have 10 green test, and the real hard work done, only the constructor to fix that generates the random data and they are done.
 
 Alex creates a first version of the constructor:
 
 {lang=java}
 ~~~~~~~
-    public producer()
-	{
-		numbers=new int [100];
-		for(int counter=0; counter<100; counter++){
-       }
-		
-	}
-
+    public Producer(){
+	  numbers=new int [100];
+      for(int counter = 0; counter < 100; counter++){
+      }
+    }
 ~~~~~~~
 
-Charlie: well we could be a little smarter and replace the 100, by a constant. 
-Charlie adds int MAX=100;
-And goes on to replace 100 with MAX, even in the count function. 
+Charlie: "Well we could be a little smarter and replace the 100, by a constant." Charlie adds int MAX = 100; And goes on to replace 100 with MAX, even in the count function.
 
 {lang=java}
 ~~~~~~~
-    public int count()
-	{	
-		return MAX;
-	}
-
+    public int count(){
+      return MAX;
+    }
 ~~~~~~~
 
 Reruns the tests. They stay green.
 
-Alex takes over again and “finishes” the constructor by adding:
- 
+Alex takes over again and "finishes" the constructor by adding:
+
 {lang=java}
 ~~~~~~~
-		numbers[counter]=4587;
-
+      numbers[counter]=4587;
 ~~~~~~~
 
 and then adjusts the number function too.
 
 {lang=java}
-~~~~~~~  
-  public int number(int index )
-	{
-		return numbers[index];
-		
-	}
-
+~~~~~~~
+      public int number(int index ) {
+        return numbers[index];
+      }
 ~~~~~~~
 
-Charlie takes another sip from the coffee and looks up, just in time to see all tests stay green. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
+Charlie takes another sip from the coffee and looks up, just in time to see all tests stay green.

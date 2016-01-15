@@ -1,5 +1,29 @@
-#Trainer instructions**Preparation**As for any workshop or training, try to be in the room 15 to 20 minutes before the workshop starts. Especially if it is your first time facilitating the workshop or working in this room. The ideal layout for this workshop, is to have a large room with place for a circle of 22 chairs and one big table with one computer per 2 participants.
- You create the first circle with 20 chairs + chairs for both trainers. (We strongly advice you coach this workshop with two trainers.) This is the circle where you start the workshop, explain everything and hold the feedback round.Next to that circle, you have a large table with 10 computers (next to your own). You can work with the normal computer setup for a the developers, yet we have noticed that having everyone in the same room and even at the same table, works even better for the sharing of knowledge. 
-+ Put a timer clock in front of you. + Have a printed copy of this document for each trainer.
-We have put the default time on the different parts. Use these timings as a guideline. When you notice that you are not following the timings, make sure you adjust on the paper how much time you use for each section; It will give you insight on where to adjust the workshop. (We use it like a non graphical burndown) When we know when the game will be played, we write down the exact times on the printed documents. When we facilitate, we don't want to use our brain, to convert 1:25 to 9:25. When the real hours are written on the document beforehand, we can use our brain to react to the participants.**Little things in the preparation that make our life easier while playing:**+ When you facilitate the workshop, and you check the time, and you notice you are on track, you put a yellow index card in front of both of you+ if you are behind schedule, you put a red card in front of you+ if you are ahead of the schedule, you use the green index card.This is a visual management trick, that enhances the communication between the two trainers without the need to talk. (Although during this workshop you have plenty of time to talk to each other.) While people come in, ask them to write their name on a name badge and put the name tag on their body. (we prefer sticker badges as they stay visible and easy to read.) As people switch partners all the time noting their name linked to their location won’t help you. 
-**Tips for first time presenters:**3 hours is a lot; You might be tempted to trim the workshop. Especially on the feedback round. Don't. The feedback round is the most important part of the workshop.If you don't have 3 hours, select another workshop (or contact us, see the contact page to know how.)
+# Trainer instructions
+
+## Preparation
+As for any workshop or training, try to be in the room 15 to 20 minutes before the workshop starts. Especially if it is your first time facilitating the workshop or working in this room.
+
+The ideal layout for this workshop, is to have a large room with place for a circle of 22 chairs and one big table with one computer per 2 participants.
+You create the first circle with 20 chairs + chairs for both trainers. (We strongly advice you coach this workshop with two trainers.) This is the circle where you start the workshop, explain everything and hold the feedback round.
+
+Next to that circle, you have a large table with 10 computers (next to your own). You can work with the normal computer setup for a the developers, yet we have noticed that having everyone in the same room and even at the same table, works even better for the sharing of knowledge.
+
++ Put a timer clock in front of you.
++ Have a printed copy of this document for each trainer.
+
+We have put the default time on the different parts. Use these timings as a guideline. When you notice that you are not following the timings, make sure you adjust on the paper how much time you use for each section; It will give you insight on where to adjust the workshop.
+(We use it like a non graphical burndown) When we know when the game will be played, we write down the exact times on the printed documents. When we facilitate, we don't want to use our brain, to convert 1:25 to 9:25. When the real hours are written on the document beforehand, we can use our brain to react to the participants.
+
+**Little things in the preparation that make our life easier while playing:**
++ When you facilitate the workshop, and you check the time, and you notice you are on track, you put a yellow index card in front of both of you
++ if you are behind schedule, you put a red card in front ofyou
++ if you are ahead of the schedule, you use the green index card.
+
+This is a visual management trick, that enhances the communication between the two trainers without the need to talk. (Although during this workshop you have plenty of time to talk to each other.)
+
+While people come in, ask them to write their name on a name badge and put the name tag on their body. (we prefer sticker badges as they stay visible and easy to read.) As people switch partners all the time noting their name linked to their location won't help you.
+
+**Tips for first time presenters:**
+3 hours is a lot; You might be tempted to trim the workshop. Especially on the feedback round. Don't. The feedback round is the most important part of the workshop.
+
+If you don't have 3 hours, select another workshop (or contact us, see the contact page to know how).
