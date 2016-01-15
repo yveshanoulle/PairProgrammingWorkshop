@@ -7,12 +7,9 @@
 05_LargeExercise.txt
 06_ExampleStory.txt
 
-
 12_Observation.txt
 13_Feedback.txt
-
 14_Library.txt
-
 
 17_Acknowledgments.txt
 

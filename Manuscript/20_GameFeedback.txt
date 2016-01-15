@@ -1,6 +1,6 @@
 # Workshop Feedback {#WorkshopFeedback}
 
-Will you send us your feedback to <games@paircoaching.net>?  
+Will you send us your feedback to <games@paircoaching.net>? 
 Please use the perfection game format for sending us feedback. (The perfection Game is part of [the Core protocols](http://liveingreatness.com/files/core-protocols-3.03.html), a set of communication patterns created by [Jim & Michele McCarthy](http://www.mccarthyshow.com/online/))
 
 The Perfection Game protocol will support you in your desire to aggregate the best ideas. Use it whenever you desire to improve something you've created.
@@ -14,15 +14,15 @@ The Perfection Game protocol will support you in your desire to aggregate the be
 
 **Commitments**
 
-* Accept perfecting without argument.
-* Give only positive comments: what you like and what it would take to "give it a 10."
-* Abstain from mentioning what you don't like or being negative in other ways.
-* Withhold points only if you can think of improvements.
-* Use ratings that reflect a scale of improvement rather than a scale of how much you liked the object.
-* If you cannot say something you liked about the object or specifically say how to make the object better, you must give it a 10.
+"Accept perfecting without argument.
+"Give only positive comments: what you like and what it would take to give it a 10."
+"Abstain from mentioning what you don't like or being negative in other ways.
+"Withhold points only if you can think of improvements.
+"Use ratings that reflect a scale of improvement rather than a scale of how much you liked the object.
+"If you cannot say something you liked about the object or specifically say how to make the object better, you must give it a 10.
 
 **Notes**
 
-* A rating of 10 means you are unable to add value, and a rating of 5 means you will specifically describe how to make the object at least twice as good.
-* The important information to transmit in the Perfection Game protocol improves the performance or object. For example, "The ideal sound of a finger snap for me is one that is crisp, has sufficient volume, and startles me somewhat. To get a 10, you would have to increase your crispness."
-* As a perfectee, you may only ask questions to clarify or gather more information for improvement. If you disagree with the ideas given to you, simply don't include them.
+"A rating of 10 means you are unable to add value, and a rating of 5 means you will specifically describe how to make the object at least twice as good.
+"The important information to transmit in the Perfection Game protocol improves the performance or object. For example, "The ideal sound of a finger snap for me is one that is crisp, has sufficient volume, and startles me somewhat. To get a 10, you would have to increase your crispness."
+"As a perfectee, you may only ask questions to clarify or gather more information for improvement. If you disagree with the ideas given to you, simply don't include them.
