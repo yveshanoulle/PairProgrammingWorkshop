@@ -3,9 +3,8 @@
 We would like to **THANK**: 
 
 + You for buying and reading this book so far. 
-+ everyone that has played this workshop since we invented.
++ Everyone that has played this workshop since we invented.
 + Irena Nancovska Serbec as she came up with the original set of exercises.
-
 
 **People that have given numerous tips:**
 
@@ -13,8 +12,8 @@ We would like to **THANK**:
 
 **Bug fixes**
 
-+ Peter Gfader ‏
++ Peter Gfader
 
 **People that are in the pictures:**
 
-+ Emme Dujardin & Geike Hanoulle : on the cover picture
++ Emme Dujardin & Geike Hanoulle: on the cover picture

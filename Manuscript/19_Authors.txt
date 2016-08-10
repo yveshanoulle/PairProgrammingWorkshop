@@ -1,21 +1,16 @@
 # About the authors {#Authors}
 
-
 **Yves Hanoulle:**
 
 I started working in IT in 1994. I worked as software support, developer, team lead, trainer, agile coach. I believe that IT is mainly about working with people. A skill that can never be learned enough. 
 
 Yearly I spend at least 10 % of my revenue on training and books (You can find details and recommendations on my linkedin profile.)
 
+After my father invented the term PairCoaching, I started to use it to promote pairwork. When I don't work as an agile coach helping companies in EMEA, talking at conferences around the world about agile or the core protocols, I'm using agile idea’s to raise my 3 kids. (And I use what I learn from them when I work with teams.)
 
-After my father invented the term PairCoaching, I started to use it to  promote pairwork.
-When I don’t work as an agile coach helping companies in EMEA, talking at conferences around the world about agile or the core protocols, I’m using
-agile idea’s to raise my 3 kids. (And I use what I learn from them when I work with teams.)
+Since December 2012, I work from a [walking desk](http://www.hanoulle.be/2013/02/im-working-from-a-walking-desk/). Check out the link to see how many steps I took since then. 
 
-Since December 2012, I work from a [walking desk](http://www.hanoulle.be/2013/02/im-working-from-a-walking-desk/). 
-Check out the link to see how many steps I took since then. 
-
-I’m a big fan of parent pair work with their children. I have already given a presentation with my whole family in 2011 and since December 2014, I’m giving pair presentations with my oldest son Joppe. 
+I'm a big fan of parent pair work with their children. I have already given a presentation with my whole family in 2011 and since December 2014, I’m giving pair presentations with my oldest son Joppe. 
 
 I have also released [anguis](https://www.anguis.be), a (Dutch) android game that I have parent pair programming written with Joppe.
 
@@ -30,25 +25,24 @@ I have also released [anguis](https://www.anguis.be), a (Dutch) android game tha
 
 **Books**
 
-You can find my books at http://www.hanoulle.be/books
-If you are interested in agile, you might want to [buy the leanpub agile bundle](https://www.leanpub.com/b/agile)
+You can find my books at [http://www.hanoulle.be/books](http://www.hanoulle.be/books). If you are interested in agile, you might want to [buy the leanpub agile bundle](https://www.leanpub.com/b/agile)
 
+**Yves' Contact Data:**
 
-Yves' Contact Data:
++ [Personal website](http://www.hanoulle.be)
++ [Twitter](http://www.twitter.com/YvesHanoulle)
++ [Slides](http://www.slideshare.net/yvesHanoulle)
++ [Video](http://www.youtube.com/user/yveshanoulle)
++ [Linkedin](http://www.linkedin.com/in/yveshanoulle)
 
-* [Personal website](http://www.hanoulle.be)
-* [Twitter](http://www.twitter.com/YvesHanoulle)
-* [Slides](http://www.slideshare.net/yvesHanoulle)
-* [Video](http://www.youtube.com/user/yveshanoulle)
-* [Linkedin](http://www.linkedin.com/in/yveshanoulle)
++ +32 476 43 38 32
++ Other Social Media: YvesHanoulle
 
-* +32 476 43 38 32
-* Other Social Media: YvesHanoulle
-
-* Skype: YvesHanoulle
-* Email: games@paircoaching.net
++ Skype: YvesHanoulle
++ Email: games@paircoaching.net
 
 **Snail mail:**
 
-Objectsoft bvba
-Congregatiestraat 16 9031 Drongen
+Objectsoft bvba,
+Congregatiestraat 16, 
+9031 Drongen

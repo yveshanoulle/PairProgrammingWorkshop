@@ -1,16 +1,15 @@
-#Abstract
+# Abstract {#Abstract}
 
-**Description**
+## Description
 
-In a way pair programming is like riding a bicycle. You can read book about it, you can watch video’s from people doing so, you really learn it by doing so.
+In a way pair programming is like riding a bicycle. You can read book about it, you can watch video's from people doing so, you really learn it by doing so.
 With this workshop we would like people to experience what pair programming is.
 
+## Process and timetable
 
-**Process and timetable:**
-
-+ total time 180 min
-+ Introduction to speaker :  5 minutes
-+ Introduction to group:  10 minutes (up to 20 people)
++ Total time: 180 min
++ Introduction of facilitator: 5 minutes
++ Introduction to group: 10 minutes (up to 20 people)
 + What
 + Why
 + Resistance
@@ -19,4 +18,4 @@ With this workshop we would like people to experience what pair programming is.
 + Smells
 + Small exercises
 + Large exercise
-+ Large joined retrospective (at the end) 30 minutes
++ Large joined retrospective 30 minutes (at the end)
