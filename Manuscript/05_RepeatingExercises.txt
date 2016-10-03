@@ -1,4 +1,3 @@
-
 # Repeating Exercises {#RepeatingExercises}
 The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 10 minutes they will shift partner.
 The difference between these exercises and the previous ones, is that here there are a set f exerices that build on eachother. 
@@ -12,6 +11,25 @@ In order to be a successful gambler Lucky realized he needs to know his statisti
 ## Gambling 3
 Thanks to our program Lucky is starting to win more and starts betting on more kind of games. He discovered that there are polyhedral dice and that there are games like Dungeons & Dragons who use these. So now we have to adjust are program that it uses a random polyhedral dice instead of the default dice. We have dices with 2, 3, 5, 7, 12, 14, 16, 18, 24, 30, 34, 48, 50, 60, 100 and 120 sides. With every throw we have to use a random dice and with our stats we want to know which side of which dice has been thrown and how many times.
 
+##Dice Game part 1 - Throw the dice
+I want a program that outputs the result of a random dice throw. We will be using a standard dice with 6 sides for this game.
 
+##Dice Game part 2 - Throw the dices
+The player must throw 5 standard dices at once instead of 1. I want the output of all the 5 dices.
 
+##Dice Game part 3 - Rethrow some dices
+The player can throw the dices for a maximum of 3 times. However with the rethrows there is an extra rule since the player may not rethrow every dice.
+The dices that have the same sides / eyes cannot be rethrow again.
+For example:
+In throw 1 the players throws 4, 5, 6, 4, 1 in the rethrow he may only 3 dices since "lost" the 2 equal dices (in this case 4).
+In throw 2 he throws 1, 5, 3 in the last throw he can still use 3 dices.
+In throw 3 he throws 1, 1 and 5
 
+The score is number of eyes of the dices. so In throw 1 he scored 8 (2 times 4), in throw 2 he scored nothing since he had no same sides.
+In the final throw we may count all the eyes so he scored 7 and his final score is 15.
+
+It is possible that the player his turn ends after 1 or 2 throws.
+
+##Dice Game final part - Nobody likes to play alone
+The final part of this game is very simple: Noboby likes to play alone. I want the the application to be able to give me the throws and the scores of multiple players.
+The application should also tell me at the end the ranking of the players. The number of player should be random between 2 and 4.
