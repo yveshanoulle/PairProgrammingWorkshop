@@ -3,9 +3,15 @@
 The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 10 minutes they will shift partner.
 The difference between these exercises and the previous ones, is that here there are a set f exerices that build on eachother. 
 
-## pyramid ONE
-## pyramid TWO
-## pyramid THREE
+## Gambling
+Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will "throw" the cube as long as the sum of all outcomes does not exceed 100. The program should print out after each "throw" of the last outcome and the total sum. Finally, print out the total number of dice throws.
+
+## Gambling 2 
+In order to be a successful gambler Lucky realized he needs to know his statistics. At the end of the game he doesn’t want the number of dice throws but he wants the number of dice throws in total and how many every eye/side has been thrown.
+
+## Gambling 3
+Thanks to our program Lucky is starting to win more and starts betting on more kind of games. He discovered that there are polyhedral dice and that there are games like Dungeons & Dragons who use these. So now we have to adjust are program that it uses a random polyhedral dice instead of the default dice. We have dices with 2, 3, 5, 7, 12, 14, 16, 18, 24, 30, 34, 48, 50, 60, 100 and 120 sides. With every throw we have to use a random dice and with our stats we want to know which side of which dice has been thrown and how many times.
+
 
 
 
