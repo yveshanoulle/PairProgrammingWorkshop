@@ -8,7 +8,7 @@ Charlie: "Oh that would be nice Alex, yes it's a C352 on the new machine."
 
 Meanwhile Charlie closes all the unnecessary applications that are open, wondering: "Why do I keep so many thing open all the time? And these internet tabs? When did I last revisit check them? Oh look that was for that concert I want to go to. When is it again? Oh too bad that was last Sunday."
 
-Alex sits down handing a nice cup of favorite hot coffee. He also brought an index card with the user story Symmetric Numbers that they had agreed to work on.
+Alex sits down handing a nice cup of favorite hot coffee. Alex also brought an index card with the user story Symmetric Numbers that they had agreed to work on.
 
 They look at it together:
 Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find and display the number, which are "axially symmetric", which means that their records are of type XYYX.
@@ -19,9 +19,9 @@ Alex chuckles: "Yeah, that's a big part of what I like about this job, writing s
 
 Although they haven't started yet, they already make sure they are aligned.
 
-Alex plugs in his vertical mouse and grabs the keyboard. He launches eclipse and opens up the project where this story belongs.
+Alex plugs in a vertical mouse and grabs the keyboard. Launches eclipse and opens up the project where this story belongs.
 
-He creates a class RandomNumberTest using the wizard and gets
+Alex creates a class RandomNumberTest using the wizard and gets
 
 {lang=java}
 ~~~~~~~
@@ -47,8 +47,8 @@ He creates a class RandomNumberTest using the wizard and gets
     }
 ~~~~~~~
 
-As he hasn't used Charlie's machine in a while, he even runs the test. It's red.
-He smiles and hands the keyboard to Charlie. "It's red your turn."
+As Alex hasn't used Charlie's machine in a while, They even runs the test. It's red.
+Alex smiles and hands the keyboard to Charlie. "It's red your turn."
 
 Charlie looks at Alex, almost turning red himself: "Oh you" then realises it's a joke", grabs the keyboard and laughs and says: "I'll write you a red test".
 
@@ -66,7 +66,7 @@ Charlie renames the _test()_ test to _containsHundredNumbers_ and quickly add's 
  ~~~~~~~
 
 Although the project no longer compiles, Alex is already eager to solve the test.
-He adds the _Producer_ class with one function and one line of code.
+Alex adds the _Producer_ class with one function and one line of code.
 
 {lang=java}
 ~~~~~~~
@@ -93,7 +93,7 @@ Alex grabs the keyboard again and rewrites the code little bit into:
 ~~~~~~~
 
 Reruns the test, it stays green.
-So now Alex add's the test already in his mind.
+So now Alex add's the test already in their mind.
 
 {lang=java}
 ~~~~~~~
@@ -118,9 +118,9 @@ Charlie writes
 
 and laughs out loud when the test is green. And pushes everything to the source control system.
 
-Alex realises he forgot that step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
+Alex realises the forgotten step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
 
-Alex focuses back to the screen, he realises that Charlie has already refactored something and rerun the tests. Green again.
+Alex focuses back to the screen and realises that Charlie has already refactored something and rerun the tests. Green again.
 
 Alex: "Sorry, you are a little bit too fast for me.I got distracted by your committing, what were your refactoring?
 
@@ -172,7 +172,7 @@ There seems to be a big queue at the coffee machine. Alex add's another test whi
     }
 ~~~~~~~
 
-Alex smiles, happy that to have a  test that will be green without changing the code, even if it contains a buggy number. He runs the test and what? RED? What the * damned a copy paste error.
+Alex smiles, happy that to have a test that will be green without changing the code, even if it contains a buggy number. Reruns the test and what? RED? What the * damned a copy paste error.
 
 Let's quickly change that into
 
@@ -188,7 +188,7 @@ And now they have three green tests. Alex commits the code and while accepts the
 
 Alex: "I don't see anything I can refactor now, so let' start immediately with a new test."
 
-Charlie:: "Let me see", scans the code while taking one, no two sips of coffee: "No I guess you are right".
+Charlie:: "Let me see", scans the code while taking one, no two sips of coffee: "No, I guess you are right".
 
 Charlie starts with
 
@@ -240,7 +240,7 @@ Yet while he is wondering about that, Alex already add the next test.
 
 Charlie feels sidetracked he was more thinking about adding more tests and code about the array. Ah well, the function is really the core of the story so Alex is right we should start working on it.
 
-He quickly writes
+Charlie quickly writes
 
 {lang=java}
 ~~~~~~~
@@ -265,7 +265,7 @@ Commit the code and the changes the name of the test and adds another test.
     }
 ~~~~~~~
 
-Alex cracks his fingers, thinks to himself, finally we can stop fooling the tests, let's add some real code.
+Alex fingers cracks, thinking to himself, finally we can stop fooling the tests, let's add some real code.
 
 {lang=java}
 ~~~~~~~
@@ -288,7 +288,7 @@ Alex cracks his fingers, thinks to himself, finally we can stop fooling the test
 
 And yes it turns green.
 
-Mike grins and says: "Yes it's green. Let me add another test".
+Alex grins and says: "Yes it's green. Let me add another test".
 
 {lang=java}
 ~~~~~~~
@@ -298,7 +298,7 @@ Mike grins and says: "Yes it's green. Let me add another test".
     }
 ~~~~~~~
 
-Alex scratches his head, why is this one red? "Oh right, a copy paste error."
+Alex scratches the head, why is this one red? "Oh right, a copy paste error."
 
 {lang=java}
 ~~~~~~~
@@ -477,4 +477,4 @@ and then adjusts the number function too.
       }
 ~~~~~~~
 
-Charlie takes another sip from the coffee and looks up, just in time to see all tests stay green.
+Charlie takes another sip from her coffee and looks up, just in time to see all tests stay green.
