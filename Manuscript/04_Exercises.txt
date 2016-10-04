@@ -41,6 +41,9 @@ Output: 4-TIMES SQRT OF 5
 ## Gambling
 Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will "throw" the cube as long as the sum of all outcomes does not exceed 100. The program should print out after each "throw" of the last outcome and the total sum. Finally, print out the total number of dice throws.
 
+## Lotto predictor
+Like everyone else, I would like to win the lottery. But luckely I got developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
+
 ## Anadiploza
 Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, is an anadiploza or not. The program doesn't separate among small and large letters.
 
