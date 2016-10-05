@@ -1,4 +1,4 @@
-# Repeating Exercises {#RepeatingExercises}
+﻿# Repeating Exercises {#RepeatingExercises}
 The next pages contain a lot of repeating exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 10 minutes they will shift partner.
 The difference between these exercises and the previous ones, is that here there are a set of exerices that build on eachother. We hope that with these kind of exercises, students learn that they still have to think about quality. 
 
@@ -33,3 +33,6 @@ It is possible that the player his turn ends after 1 or 2 throws.
 ##Dice Game final part - Nobody likes to play alone
 The final part of this game is very simple: Noboby likes to play alone. I want the the application to be able to give me the throws and the scores of multiple players.
 The application should also tell me at the end the ranking of the players. The number of player should be random between 2 and 4.
+
+## Lotto predictor for Belgium
+Like everyone else, I would like to win the lottery. Luckely I got some great developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
