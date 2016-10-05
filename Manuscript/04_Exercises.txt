@@ -26,20 +26,28 @@ Write a program that will ask for an integer that is smaller than 30,000, and wi
 **EXAMPLES:**
 
 Input: 16
+
 Output: 4-TIMES SQRT OF 1
 
+
 Input: 15
+
 Output: 1-TIMES SQRT OF 15
 
+
 Input: 80
+
 Output: 4-TIMES SQRT OF 5
 
 ## Gambling
 Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will keep "throwing" the dice as long as the sum of all throws does not exceed 100. After each "throw", the program should print out the last throw and the total sum. When a throw takes the total over 100, the program will stop. Finally, print out the total number of dice throws.
 
 **SAMPLE FINAL OUTPUT:**
+
 Last throw: 2
+
 Sum of all throws: 99
+
 Total number of throws: 34
 
 ## Armstrong numbers
@@ -65,8 +73,11 @@ Write a program that generates 100 random numbers between 2000 and 5000. Once th
 Write a program that will print all the natural numbers between 2000 and 5000 that are divisible by the sum of their digits. Print on each line the number and the sum of its digits.
 
 **EXAMPLES:**
+
 555 15
+
 1000 1
+
 234 9
 
 ## Count vowels
@@ -77,17 +88,29 @@ The second character (sprite) will count and return the number of vowels. Each w
 Write a program that reads a 20-digit number and prints out the number of frequencies of '0', '1', '2' .. '9' and the sum of its digits.
 
 **EXAMPLE:**
+
 00000000001111111111
+
 0: 10
+
 1: 10
+
 2: 0
+
 3: 0
+
 4: 0
+
 5: 0
+
 6: 0
+
 7: 0
+
 8: 0
+
 9: 0
+
 Sum of digits: 10
 
 ## Stuttering
@@ -99,19 +122,32 @@ The program should check the suitability of the data, which means that the numbe
 
 **EXAMPLE RUN:**
 
+
 Word: kodak
+
 Word: panika
+
 Word: cry
+
 Word: end
 
+
 Num of ch: 2
+
 Num of ch: 2
+
 Num of ch: 1
 
+
 Frequency: 2
+
 Frequency: 0
+
 Frequency: 5
 
+
 Answer: kokodak
+
 Answer: nika
+
 Answer: cccccry
