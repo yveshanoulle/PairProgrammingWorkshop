@@ -1,10 +1,12 @@
-# Foreword {#Foreword}
+﻿# Foreword {#Foreword}
 
 This book was created as an accompaniment to the Pair Programming workshop which has been run by Yves Hanoulle all over the world for several years now. In the spirit of paired working, Yves has run this workshop in partnership with several different people. I’m delighted to be co-hosting the workshop with Yves at OOP17 in Munich, January 2017.
 
 The focus of this workshop is on giving participants hands-on experience of Pair Programming, along with an opportunity to examine and reflect on their experience in depth. The aim is for people to come away with a rich understanding of how they can enhance the quality and enjoyment of their day-to-day work in software. This is done by working creatively and collaboratively with their colleagues, and as much as anything else, this should be an enjoyable experience.
 
+
 Clare Sudbery 
+
 August 2016.
 
 

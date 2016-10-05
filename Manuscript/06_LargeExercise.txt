@@ -1,4 +1,4 @@
-# Conways game of life {#LargeExercise}
+# Conway's game of life {#LargeExercise}
 
 This larger exercise is also included in case you feel you would like to give participants a little longer, towards the end of the workshop. This is something you can play by ear, or tweak if you run the workshop
 
