@@ -73,6 +73,7 @@ Write a program that will print all the natural numbers between 2000 and 5000 th
 
 ## Count vowels
 Write a program that creates two characters (sprites). The first character (sprite) reads 10 words, entered by the user. These words will be strings of random ASCII characters. Each word will be completed by pressing Enter.
+
 The second character (sprite) will count and return the number of vowels. Each word may consist of uppercase and / or lowercase letters. Finally, display the word with the most vowels.
 
 ## A large number - The sum of digits
