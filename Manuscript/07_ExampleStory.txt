@@ -1,27 +1,28 @@
 # Example Story {#ExampleStory}
 
-In this chapter, we wrote an example of what ping pong programming could look like.
+In this chapter, we have described an example of what ping pong programming could look like.
 
-Alex: "Hi Charlie I'll be right with you, let me first get a new coffee. Do you want your regular black with a bit of sugar?"
+Alex: “Hi Charlie, I’ll be right with you. Let me get a coffee first. Black with a bit of sugar for you, yes?”
 
-Charlie: "Oh that would be nice Alex, yes it's a C352 on the new machine."
+Charlie: “Oh that would be nice Alex, yes. It’s a C352 on the new machine.”
 
-Meanwhile Charlie closes all the unnecessary applications that are open, wondering: "Why do I keep so many thing open all the time? And these internet tabs? When did I last revisit check them? Oh look that was for that concert I want to go to. When is it again? Oh too bad that was last Sunday."
+Meanwhile Charlie closes all the unnecessary applications that are open, wondering: “Why do I keep so many things open all the time? And these internet tabs? When did I last revisit or check them? Oh look, that was for that concert I want to go to. When is it again? Oh, too bad - that was last Sunday.”
 
-Alex sits down handing a nice cup of favorite hot coffee. Alex also brought an index card with the user story Symmetric Numbers that they had agreed to work on.
+Alex sits down, bringing a nice cup of Charlie’s favorite coffee. Alex has also brought an index card with the user story for the Symmetric Numbers problem they have agreed to work on.
 
 They look at it together:
-Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find and display the number, which are "axially symmetric", which means that their records are of type XYYX.
 
-Charlie sips at his coffee and says: "These scientists seem to come up with ever crazier ideas."
+* Write a program that generates 100 random numbers between 1000 and 9999. Once the numbers have been generated, find and display the numbers which are “axially symmetric”, which means that their records are of type XYYX. For instance, 1221 is axially symmetric.
 
-Alex chuckles: "Yeah, that's a big part of what I like about this job, writing software for crazy Albert."
+Charlie sips at the coffee and says: “These BAs seem to come up with ever-crazier ideas.”
 
-Although they haven't started yet, they already make sure they are aligned.
+Alex chuckles: “Yeah, that’s a big part of what I like about this job, writing software for crazy Albert.”
 
-Alex plugs in a vertical mouse and grabs the keyboard. Launches eclipse and opens up the project where this story belongs.
+Although they haven’t started yet, they are already making sure they’re aligned.
 
-Alex creates a class RandomNumberTest using the wizard and gets
+Alex plugs in a vertical mouse and grabs the keyboard, to launch eclipse and open up the project where this story belongs.
+
+Alex creates a class RandomNumberTest using the wizard, and gets this:
 
 {lang=java}
 ~~~~~~~
@@ -47,14 +48,13 @@ Alex creates a class RandomNumberTest using the wizard and gets
     }
 ~~~~~~~
 
-As Alex hasn't used Charlie's machine in a while, They even runs the test. It's red.
-Alex smiles and hands the keyboard to Charlie. "It's red your turn."
+As Alex hasn’t used Charlie’s machine in a while, Alex even runs the test. It’s red. Alex smiles and hands the keyboard to Charlie. “It’s red. Your turn.”
 
-Charlie looks at Alex, almost turning red himself: "Oh you" then realises it's a joke", grabs the keyboard and laughs and says: "I'll write you a red test".
+Charlie looks at Alex, almost turning red too. “Oh, you,” Alex says, realising that it’s a joke. Alex grabs the keyboard, laughs and says: “I’ll write you a red test”.
 
-From a distant you might think Charlie and Alex are not getting along, yet in reality it's this kind of jokes that releases their pressure. They have been in the same team for about 5 years. Just like with an older married couple they disagree on when they first met, other than that they get along really well.
+From a distance, you might think Charlie and Alex are not getting along. But in reality it’s this kind of joke that releases their pressure. They have been in the same team for about five years. Just like with an older married couple they disagree on when they first met, other than that they get along really well.
 
-Charlie renames the _test()_ test to _containsHundredNumbers_ and quickly add's two lines of code.
+Charlie renames the test() test to containsHundredNumbers and quickly adds two lines of code.
 
 {lang=java}
 ~~~~~~~
@@ -65,8 +65,7 @@ Charlie renames the _test()_ test to _containsHundredNumbers_ and quickly add's 
     }
  ~~~~~~~
 
-Although the project no longer compiles, Alex is already eager to solve the test.
-Alex adds the _Producer_ class with one function and one line of code.
+Although the project no longer compiles, Alex is already eager to solve the test. Alex adds the Producer class with one function and one line of code.
 
 {lang=java}
 ~~~~~~~
@@ -77,11 +76,13 @@ Alex adds the _Producer_ class with one function and one line of code.
     }
 ~~~~~~~
 
-Alex smiles as the test is run and for sure, the test is green. They are very well aware they faked it, yet they learned that they should only do the bare minimum and Alex knows that Charlie with jump on it the moment Alex would do more then just the bear minimum. And still they both realise that it still makes them feel that they are faking it. Oh well. Let's start working on a new test that will make it a little better.
+Alex smiles as the test is run and for sure, the test is green. They are very well aware that they faked it, but they have learned that they should only do the bare minimum. Alex knows that Charlie will jump on it the moment Alex does any more than just the bare minimum. And still they both realise that they are only faking it. Oh well. Let’s start working on a new test that will make it a little better.
 
-Charlie: "Ehuhum", Alex looks up thinking: "What did I forget? The test is green. Damned. Think, Red, Green, Refactor. Thanks!"
+Charlie: “Ahem”.
 
-Alex grabs the keyboard again and rewrites the code little bit into:
+Alex looks up, thinking: What did I forget? The test is green. Damn. Think: Red, Green, Refactor.
+
+“Thanks!” says Alex, grabbing the keyboard again and rewriting the code a little, into:
 
 {lang=java}
 ~~~~~~~
@@ -92,8 +93,7 @@ Alex grabs the keyboard again and rewrites the code little bit into:
     }
 ~~~~~~~
 
-Reruns the test, it stays green.
-So now Alex add's the test already in their mind.
+Alex reruns the test, and it stays green. So Alex adds the test already thought of:
 
 {lang=java}
 ~~~~~~~
@@ -104,10 +104,11 @@ So now Alex add's the test already in their mind.
 	}
 ~~~~~~~
 
-Charlie is surprised: "Oh I had not thought about testing this, I was already thinking about how we could be sure we had 100 numbers, but yes this forces me to actually have a number." Charlie pauses a little bit: "Or does it?"
-With a big evil grin, Charlie put the coffee down and grabs the keyboard.
+Charlie is surprised: “Oh, I hadn’t thought about testing this. I was already thinking about how we could be sure we had 100 numbers, but yes. This forces me to actually have a number.”
 
-Charlie writes
+Charlie pauses. “Or does it?”
+
+With a big evil grin, Charlie puts the coffee down and grabs the keyboard. Charlie writes:
 
 {lang=java}
 ~~~~~~~
@@ -116,21 +117,21 @@ Charlie writes
     }
 ~~~~~~~
 
-and laughs out loud when the test is green. And pushes everything to the source control system.
+…and laughs out loud when the test is green. And pushes everything to the source control system.
 
-Alex realises the forgotten step, just before. Oh well, they have only been programming for about 5 minutes, was not that a big deal there was no check in yet, still Alex wants to do better.
+Alex realises that Alex forgot that step, just before. Oh well, they’ve only been programming for about 5 minutes, it’s not that big a deal. Still, there was no check in and Alex wants to do better.
 
-Alex focuses back to the screen and realises that Charlie has already refactored something and rerun the tests. Green again.
+Alex focuses back to the screen, and realises that Charlie has already refactored something and rerun the tests. Green again.
 
-Alex: "Sorry, you are a little bit too fast for me.I got distracted by your committing, what were your refactoring?
+Alex: “Sorry, you’re a bit too fast for me. I got distracted by your committing - what were you refactoring?
 
-Charlie: "How can a commit distract you? I did not put in a silly comment did I?"
+Charlie: “How can a commit distract you? I didn’t put in a silly comment did I?”
 
-Alex: "Nah, just embarrassed I had not done it."
+Alex: “Nah, I was just embarrassed I hadn’t done it.”
 
-Charlie: "Ah well, you did refactoring when I assumed you and I had not thought of that…"
+Charlie: “Ah well, you did the refactoring when I forgot.”
 
-Alex: "Looks like we need both of our brains this morning to have effective code "Charlie" yes and more coffee, let me get us some more, while you figure out the refactoring."
+Alex: “Looks like we need both of our brains this morning to have effective code.” Charlie: “Yes, and more coffee. I’ll get us some more while you figure out the refactoring.” 
 
 Alex reads:
 
@@ -160,9 +161,9 @@ Alex reads:
     }
 ~~~~~~~
 
-"Hmm, Ok, so reusing _myProducer_, why not; I don't think this will hold up, because we probably will split these tests into two classes later, but for now, yeah why not."
+“Hmm, Ok, so reusing myProducer, why not. I don’t think this will hold up, because we’ll probably split these tests into two classes later, but for now, yeah, why not.”
 
-There seems to be a big queue at the coffee machine. Alex add's another test while waiting for Charlie.
+There seems to be a big queue at the coffee machine. Alex adds another test while waiting for Charlie.
 
 {lang=java}
 ~~~~~~~
@@ -172,9 +173,7 @@ There seems to be a big queue at the coffee machine. Alex add's another test whi
     }
 ~~~~~~~
 
-Alex smiles, happy that to have a test that will be green without changing the code, even if it contains a buggy number. Reruns the test and what? RED? What the * damned a copy paste error.
-
-Let's quickly change that into
+Alex smiles, happy to have a test that will be green without changing the code, even if it contains a buggy number. Alex runs the test and what? RED? What the hell? Damn. A copy / paste error. Let’s quickly change that into
 
 {lang=java}
 ~~~~~~~
@@ -184,13 +183,11 @@ Let's quickly change that into
     }
 ~~~~~~~
 
-And now they have three green tests. Alex commits the code and while accepts the coffee from Charlie, Alex thinks about refactoring, not really an opportunity here.
+So now they have three green tests. Alex commits the code and while accepting the coffee from Charlie, Alex thinks about refactoring. There isn’t really an opportunity here.
 
-Alex: "I don't see anything I can refactor now, so let' start immediately with a new test."
+Alex: “I don’t see anything I can refactor now, so let’s get straight on with a new test.”
 
-Charlie:: "Let me see", scans the code while taking one, no two sips of coffee: "No, I guess you are right".
-
-Charlie starts with
+Charlie: “Let me see.” Charlie scans the code while taking a couple of sips of coffee. “No, I guess you’re right”. Charlie starts with
 
 {lang=java}
 ~~~~~~~
@@ -200,9 +197,9 @@ Charlie starts with
     }
 ~~~~~~~
 
-And then pauses a bit, think how to do it.
+Then Charlie pauses, thinking about how to do it.
 
-Alex: "What if you passing an array with both good and bad examples to a function and checking if the returns only has the Axially Symetrics". Charlies nods: "Yes that will do."
+Alex: “What if you pass an array with both good and bad examples to a function, then check that what’s returned only contains the Axially Symmetrics?” Charlie nods. “Yes, that’ll do.”
 
 {lang=java}
 ~~~~~~~
@@ -214,7 +211,7 @@ Alex: "What if you passing an array with both good and bad examples to a functio
     }
 ~~~~~~~
 
-Not the nicest code, but a good start. Charlie passes the keyboard to Alex. Who add's the next code.
+Not the nicest code, but a good start. Charlie passes the keyboard to Alex, who adds the next piece of code:
 
 {lang=java}
 ~~~~~~~
@@ -224,11 +221,11 @@ Not the nicest code, but a good start. Charlie passes the keyboard to Alex. Who 
     }
 ~~~~~~~
 
-Runs the test. And it passes. Alex commits the code.
+Charlie runs the test, and it passes. Alex commits the code.
 
-Charlie thinks: "Hm, the test name is not really correct. We are indeed only returning the Axially Symmetric numbers, but we are not testing that. Not sure yet what would be a better name." 
+Charlie thinks: Hmm, the test name is not really correct. We are indeed only returning the Axially Symmetric numbers, but we’re not testing that. I’m not sure yet what would be a better name.
 
-Yet while he is wondering about that, Alex already add the next test.
+But while Charlie is wondering about that, Alex is already adding the next test.
 
 {lang=java}
 ~~~~~~~
@@ -238,9 +235,9 @@ Yet while he is wondering about that, Alex already add the next test.
     }
 ~~~~~~~
 
-Charlie feels sidetracked he was more thinking about adding more tests and code about the array. Ah well, the function is really the core of the story so Alex is right we should start working on it.
+Charlie feels sidetracked. Charlie was thinking about adding some more tests and code about the array. Ah well, the function is really the core of the story so Alex is right - they should start working on it.
 
-Charlie quickly writes
+Charlie quickly writes:
 
 {lang=java}
 ~~~~~~~
@@ -249,8 +246,7 @@ Charlie quickly writes
     }
 ~~~~~~~
 
-Yep stick to the basic. Turns green again.
-Commit the code and the changes the name of the test and adds another test.
+Yep, stick to basics. It turns green again. Charlie commits the code, changes the name of the test and adds another test.
 
 {lang=java}
 ~~~~~~~
@@ -265,7 +261,7 @@ Commit the code and the changes the name of the test and adds another test.
     }
 ~~~~~~~
 
-Alex fingers cracks, thinking to himself, finally we can stop fooling the tests, let's add some real code.
+Alex thinks, finally we can stop fooling the tests. Let’s add some real code.
 
 {lang=java}
 ~~~~~~~
@@ -286,9 +282,9 @@ Alex fingers cracks, thinking to himself, finally we can stop fooling the tests,
     }
 ~~~~~~~
 
-And yes it turns green.
+And yes, it turns green.
 
-Alex grins and says: "Yes it's green. Let me add another test".
+Charlie grins and says: “Yes, it’s green. Let me add another test.”
 
 {lang=java}
 ~~~~~~~
@@ -298,16 +294,16 @@ Alex grins and says: "Yes it's green. Let me add another test".
     }
 ~~~~~~~
 
-Alex scratches the head, why is this one red? "Oh right, a copy paste error."
+Alex scratches an itchy head. Why is this one red? “Oh right, another copy / paste error.”
 
 {lang=java}
 ~~~~~~~
       return (firstNumber == fourthNumber) && (secondNumber == thirdNumber) ;
 ~~~~~~~
 
-Alex looks at Charlie and says: "So let's take time to refactor a little bit of the fake crap out of this code."
+Alex looks at Charlie and says: “So, let’s take time to refactor some of the fake crap out of this code.”
 
-Charlie nods: "yep, now we know the tests are working."
+Charlie nods: “Yep, now we know the tests are working.” 
 
 Alex realigns the keyboard and types:
 
@@ -326,19 +322,18 @@ Alex realigns the keyboard and types:
 ~~~~~~~
 
 Alex reruns the tests and they stay green.
-Charlie: you know as much as I hate the original function with the hard coded values, I'm glad we did it, because now I'm pretty confident that both the test and the code are working.
 
-Alex: "That is true, yet we did make an assumption in the isAxiallySymetric function."
+Charlie: “You know, as much as I hate the original function with the hard-coded values, I’m glad we did it. Because now I’m pretty confident that both the test and the code are working.” 
 
-Charlie: "Yeah well it's part of the spec that we would only get numbers that are between 1000 and 9999."
+Alex: “That’s true, but we did make an assumption in the isAxiallySymetric function.”
 
-Alex: "That is true, still I think we should assert for it, remember the Ariane 5 bug? The rocket exploded because of a limitation in ariane 4, that no longer existed in 5, yet the code assumed it. We better protect ourselves from such a future change."
+Charlie: “Yeah well, it’s part of the spec that we only get numbers between 1000 and 9999.”
 
-Charlie: "You are right, the scientist are crazy enough to change their mind anyway. So we are going to make the function work with any number?"
+Alex: “That’s true, still I think we should assert for it. Remember the Ariane 5 bug? The rocket exploded because of a limitation in Ariane 4 that no longer existed in 5, but the code assumed it. We’d better protect ourselves from such a future change.”
 
-Alex: "Nonono, that is not what I'm saying, we can't predict the future, so let's not try this, remember we have to ship this thing. What we can do is verify that when we get the wrong kind of number that our function raises an error. Remember the code complete book I told you you should read? That's the book where I learned that from."
+Charlie: “You’re right, the BAs are crazy enough to change their minds anyway. So shall we make the function work with any number?”
 
-Alex writes a new test.
+Alex: “Nonono, that’s not what I’m saying. We can’t predict the future, so let’s not try. Remember we have to ship this thing. What we can do is verify that when we get the wrong kind of number, our function will raise an error. Remember the Code Complete book I told you you should read? That’s where I learned that.” Alex writes a new test.
 
 {lang=java}
 ~~~~~~~
@@ -348,19 +343,19 @@ Alex writes a new test.
     }
 ~~~~~~~
 
-and passes the keyboard back to Charlie
+Alex passes the keyboard back to Charlie.
 
-Charlie: "But you learned the trick from the book I don't"
+Charlie: “But you learned the trick from the book, I didn’t.”
 
-Alex: "Yeah yeah, the fastest way to learn is just do it."
+Alex: “Yeah yeah, the fastest way to learn is just do it.”
 
-Charlie: "…, I should have read the damn book.."
+Charlie: “I should have read the damn book.”
 
-Alexs put on his evil grin: "That would have worked too."
+Alex puts on an evil grin: “That would have worked, too.”
 
-Charlie: "Lets see; you are expecting an exception that I don't know. I assume I have to create it myself?"
+Charlie: “Lets see: You’re expecting an exception I don’t know about. I assume I have to create it myself?”
 
-Alex nods while drinking some more coffee.
+Alex nods, while drinking some more coffee.
 
 Charlie types:
 
@@ -378,7 +373,7 @@ Charlie types:
   }
 ~~~~~~~
 
-and then continuous to change the _isAxiallySymetric_ function to
+Charlie then changes the isAxiallySymetric function to
 
 {lang=java}
 ~~~~~~~
@@ -403,7 +398,7 @@ and then continuous to change the _isAxiallySymetric_ function to
     }
 ~~~~~~~
 
-When eclipse warns about a missing format, Alex helps out by adding
+When eclipse warns about a missing format, Alex helps out by adding:
 
 {lang=java}
 ~~~~~~~
@@ -413,10 +408,9 @@ When eclipse warns about a missing format, Alex helps out by adding
     }
 ~~~~~~~
 
-When the compiler no longer complains about this test, Alex makes the same change to the other tests, and fixes AxiallySymetrics along the way.
-Now everything compiles and they have 9 green tests.
+When the compiler stops complaining about this test, Alex makes the same change to the other tests and fixes AxiallySymetrics along the way. Now everything compiles, and they have 9 green tests.
 
-After the green build and the check in, Charlie adds the cousin test.
+After the green build and the check in, Charlie adds the cousin test:
 
 {lang=java}
 ~~~~~~~
@@ -426,7 +420,7 @@ After the green build and the check in, Charlie adds the cousin test.
     }
 ~~~~~~~
 
-And as this is so trivial, Charlie also adds
+As this is so trivial, Charlie also adds this to isAxiallySymetric:
 
 {lang=java}
 ~~~~~~~
@@ -435,11 +429,9 @@ And as this is so trivial, Charlie also adds
       }
 ~~~~~~~
 
-to isAxiallySymetric, and then fixes the thrown parameters for the tests
+Charlie then fixes the thrown parameters for the tests.
 
-Alex: Now that we have 10 green test, and the real hard work done, only the constructor to fix that generates the random data and they are done.
-
-Alex creates a first version of the constructor:
+Alex: “Now that we have 10 green tests and the real hard work done, there’s only the constructor to fix that generates the random data, and they’re done.” Alex creates a first version of the constructor:
 
 {lang=java}
 ~~~~~~~
@@ -450,7 +442,9 @@ Alex creates a first version of the constructor:
     }
 ~~~~~~~
 
-Charlie: "Well we could be a little smarter and replace the 100, by a constant." Charlie adds int MAX = 100; And goes on to replace 100 with MAX, even in the count function.
+Charlie: “Well, we could be a little smarter and replace the 100 by a constant.” Charlie adds int MAX = 100;
+
+Then Charlie replaces 100 with MAX, even in the count function.
 
 {lang=java}
 ~~~~~~~
@@ -459,16 +453,16 @@ Charlie: "Well we could be a little smarter and replace the 100, by a constant."
     }
 ~~~~~~~
 
-Reruns the tests. They stay green.
+Charlie reruns the tests. They stay green.
 
-Alex takes over again and "finishes" the constructor by adding:
+Alex takes over again and “finishes” the constructor by adding:
 
 {lang=java}
 ~~~~~~~
       numbers[counter]=4587;
 ~~~~~~~
 
-and then adjusts the number function too.
+Then she adjusts the number function, too.
 
 {lang=java}
 ~~~~~~~
@@ -477,4 +471,4 @@ and then adjusts the number function too.
       }
 ~~~~~~~
 
-Charlie takes another sip from her coffee and looks up, just in time to see all tests stay green.
+Charlie takes another sip from her coffee and looks up, just in time to see all the tests stay green.
