@@ -1,6 +1,6 @@
 # Repeating Exercises {#RepeatingExercises}
-The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 10 minutes they will shift partner.
-The difference between these exercises and the previous ones, is that here there are a set f exerices that build on eachother. 
+The next pages contain a lot of repeating exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 10 minutes they will shift partner.
+The difference between these exercises and the previous ones, is that here there are a set of exerices that build on eachother. We hope that with these kind of exercises, students learn that they still have to think about quality. 
 
 ## Gambling
 Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will "throw" the cube as long as the sum of all outcomes does not exceed 100. The program should print out after each "throw" of the last outcome and the total sum. Finally, print out the total number of dice throws.
