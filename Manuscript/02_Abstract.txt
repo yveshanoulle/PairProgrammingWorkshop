@@ -2,20 +2,25 @@
 
 ## Description
 
-In a way pair programming is like riding a bicycle. You can read book about it, you can watch video's from people doing so, you really learn it by doing so.
-With this workshop we would like people to experience what pair programming is.
+In a way, pair programming is like riding a bicycle. You can read a book about it, you can watch videos of other people doing it, but you can only really learn it by doing it.
+
+This workshop not only gives people a chance to experience pair programming, but to examine that experience in depth and see how their practice can be improved.
+
+The “promiscuous pairing” technique is used, followed by an extended feedback session where participants analyse the strengths of pairing, and look at how they can improve their interactions with their partners.
 
 ## Process and timetable
 
-+ Total time: 180 min
++ Total length of workshop: 180 minutes
 + Introduction of facilitator: 5 minutes
-+ Introduction to group: 10 minutes (up to 20 people)
-+ What
-+ Why
-+ Resistance
-+ When
-+ How
-+ Smells
-+ Small exercises
-+ Large exercise
-+ Large joined retrospective 30 minutes (at the end)
++ Introduction to group: 10 minutes (up to 20 people) 
+++ What 
+++ Why 
+++ Resistance 
+++ When 
+++ How 
+++ Smells
++ Exercises: 135 minutes in total
++ Small exercises: 15 minutes per exercise
++ If you want, you can also do a large exercise: 45 minutes or more
++ Large joined retrospective: 30 minutes (at the end)
+

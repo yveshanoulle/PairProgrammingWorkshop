@@ -15,6 +15,3 @@ This workshop was invented in 2009.
 + Version 6.31 Added a book cover
  
 
-
-
-
