@@ -23,32 +23,25 @@ Some numbers can be partially expressed by root. An example of a number like thi
 
 Write a program that will ask for an integer that is smaller than 30,000, and will then write its partial roots.
 
-**EXAMPLES:**
+### EXAMPLES:
 
-Input: 16
++ Input: 16
++ Output: 4-TIMES SQRT OF 1
 
-Output: 4-TIMES SQRT OF 1
++ Input: 15
++ Output: 1-TIMES SQRT OF 15
 
-
-Input: 15
-
-Output: 1-TIMES SQRT OF 15
-
-
-Input: 80
-
-Output: 4-TIMES SQRT OF 5
++ Input: 80
++ Output: 4-TIMES SQRT OF 5
 
 ## Gambling
 Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will keep "throwing" the dice as long as the sum of all throws does not exceed 100. After each "throw", the program should print out the last throw and the total sum. When a throw takes the total over 100, the program will stop. Finally, print out the total number of dice throws.
 
-**SAMPLE FINAL OUTPUT:**
+### SAMPLE FINAL OUTPUT:
 
-Last throw: 2
-
-Sum of all throws: 99
-
-Total number of throws: 34
++ Last throw: 2
++ Sum of all throws: 99
++ Total number of throws: 34
 
 ## Armstrong numbers
 Write me a program that computes all Armstrong numbers in the range of 0 and 999. An Armstrong number is a number such that the sum of its digits raised to the third power is equal to the number itself. For example, 371 is an Armstrong number, since 3^3 + 7^3 + 1^3 = 371.
@@ -72,13 +65,11 @@ Write a program that generates 100 random numbers between 2000 and 5000. Once th
 ## Divisible by the sum of digits
 Write a program that will print all the natural numbers between 2000 and 5000 that are divisible by the sum of their digits. Print on each line the number and the sum of its digits.
 
-**EXAMPLES:**
+### EXAMPLES:
 
-555 15
-
-1000 1
-
-234 9
++ 555 15
++ 1000 1
++ 234 9
 
 ## Count vowels
 Write a program that creates two characters (sprites). The first character (sprite) reads 10 words, entered by the user. These words will be strings of random ASCII characters. Each word will be completed by pressing Enter.
@@ -87,31 +78,25 @@ The second character (sprite) will count and return the number of vowels. Each w
 ## A large number - The sum of digits
 Write a program that reads a 20-digit number and prints out the number of frequencies of '0', '1', '2' .. '9' and the sum of its digits.
 
-**EXAMPLE:**
+### EXAMPLE:
 
-00000000001111111111
+**Input:**
 
-0: 10
++ 00000000001111111111
 
-1: 10
+**Output:**
 
-2: 0
-
-3: 0
-
-4: 0
-
-5: 0
-
-6: 0
-
-7: 0
-
-8: 0
-
-9: 0
-
-Sum of digits: 10
++ 0: 10
++ 1: 10
++ 2: 0
++ 3: 0
++ 4: 0
++ 5: 0
++ 6: 0
++ 7: 0
++ 8: 0
++ 9: 0
++ Sum of digits: 10
 
 ## Stuttering
 Write a program that will stutter words. The program will read the following three sets of inputs, namely: 
@@ -120,7 +105,7 @@ Write a program that will stutter words. The program will read the following thr
 3) The frequency of the stuttered part for each word. 
 The program should check the suitability of the data, which means that the number of stuttered characters can not exceed the length of the word, and the number of repetitions must be a non-negative number. If the inputs are not adequate, the program displays an appropriate message. The first set of inputs is ended by inputting the word "END". After that, the program will ask for the other inputs and then output the stuttered words.
 
-**EXAMPLE RUN:**
+### EXAMPLE RUN:
 
 + Word: kodak  
 + Word: panika  
