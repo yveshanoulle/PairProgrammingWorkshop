@@ -13,12 +13,12 @@ The “promiscuous pairing” technique is used, followed by an extended feedbac
 + Total length of workshop: 180 minutes
 + Introduction of facilitator: 5 minutes
 + Introduction to group: 10 minutes (up to 20 people) 
-++ What 
-++ Why 
-++ Resistance 
-++ When 
-++ How 
-++ Smells
++ - What 
++ - Why 
++ - Resistance 
++ - When 
++ - How 
++ - Smells
 + Exercises: 135 minutes in total
 + Small exercises: 15 minutes per exercise
 + If you want, you can also do a large exercise: 45 minutes or more
