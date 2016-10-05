@@ -36,3 +36,6 @@ The application should also tell me at the end the ranking of the players. The n
 
 ## Lotto predictor for Belgium
 Like everyone else, I would like to win the lottery. Luckely I got some great developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
+
+## Lotto predictor for UK and Germany
+I want to increase my changes of winning so I'm gonna play on the lotto in multiple countries. Write me a program that predicts the result for Belgium, UK and Germany. In the UK and Germany they play with 49 balls.
