@@ -100,25 +100,43 @@ Write a program that reads a 20-digit number and prints out the number of freque
 
 ## Stuttering
 Write a program that will stutter words. The program will read the following three sets of inputs, namely: 
+
 1) The words that should be stuttered,
+
 2) How many characters from the beginning of each word should be stuttered,
+
 3) The frequency of the stuttered part for each word. 
-The program should check the suitability of the data, which means that the number of stuttered characters can not exceed the length of the word, and the number of repetitions must be a non-negative number. If the inputs are not adequate, the program displays an appropriate message. The first set of inputs is ended by inputting the word "END". After that, the program will ask for the other inputs and then output the stuttered words.
+
+The program should check the suitability of the data, which means that the number of stuttered characters can not exceed the length of the word, and the number of repetitions must be a non-negative number. 
+
+If the inputs are not adequate, the program displays an appropriate message. 
+
+The first set of inputs is ended by inputting the word "END". 
+
+After that, the program will ask for the other inputs and then output the stuttered words.
 
 ### EXAMPLE RUN:
+
+**Words:**
 
 + Word: kodak  
 + Word: panika  
 + Word: cry  
 + Word: end
 
+**Characters:**
+
 + Num of ch: 2  
 + Num of ch: 2  
 + Num of ch: 1
 
+**Frequencies:**
+
 + Frequency: 2  
 + Frequency: 0  
 + Frequency: 5
+
+**Output:**
 
 + Answer: kokodak  
 + Answer: nika  
