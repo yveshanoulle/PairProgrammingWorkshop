@@ -1,12 +1,12 @@
-# Abstract {#Abstract}
+﻿# Abstract {#Abstract}
 
 ### Description
 
-In a way, pair programming is like riding a bicycle. You can read a book about it, you can watch videos of other people doing it, but you can only really learn it by doing it.
+In a way, pair programming is like riding a bicycle. You could read a book about it, you could watch videos of other people doing it, but you can only really learn it by doing it.
 
 This workshop not only gives people a chance to experience pair programming, but to examine that experience in depth and see how their practice can be improved.
 
-The “promiscuous pairing” technique is used, followed by an extended feedback session where participants analyse the strengths of pairing, and look at how they can improve their interactions with their partners.
+The “promiscuous pairing” technique is used, followed by an extended feedback session where participants analyse the strengths of pairing, and look at how they can improve their interactions with their colleagues.
 
 ### Process and timetable
 
