@@ -6,7 +6,7 @@ The difference between these exercises and the previous ones, is that here we ha
 Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will keep "throwing" the dice as long as the sum of all throws does not exceed 100. After each "throw", the program should print out the last throw and the total sum. When a throw takes the total over 100, the program will stop. Finally, print out the total number of dice throws.
 
 ## Gambling 2 
-In order to be a successful gambler, Lucky realises he needs to know his statistics. At the end of the game he doesn’t want the sum of all throws but he still wants the number of dice throws in total. He also wants to know how many times each individual result has been thrown.
+In order to be a successful gambler, Lucky realises he needs to know his statistics. At the end of the game, he still wants the number of dice throws in total, but he also wants to know how many times each individual result has been thrown.
 
 ## Gambling 3
 Thanks to our program, Lucky is starting to win more and starts betting on other types of game. He discovers that there are polyhedral dice, and that there are games like Dungeons & Dragons that use them. So now we will adjust our program to use random polyhedral dice instead of six-sided dice. 
