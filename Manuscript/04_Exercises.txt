@@ -1,5 +1,5 @@
 # Small Exercises {#Exercises}
-The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The participants will then do extreme promiscuing pairing: Every 15 minutes they will change partner.
+The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The participants will then do extreme promiscuing pairing: Every 15 minutes they will change partner, if this is possible (if pairs do not finish at the same time, they do not have to swap partners).
 
 ## Sum of digits - Min and Max
 Write a program that generates 100 random numbers between 2000 and 3000. Once the numbers have been generated, find and display the two numbers with the largest and smallest sum of digits. For instance, SumDigits(2825) = 2 + 8 + 2 + 5 = 17.
