@@ -9,9 +9,12 @@ We would like to **THANK**:
 **People that have given numerous tips:**
 
 + Eric Talboom
++ Kim Lauwers for the idea of the repeatable exercises.
 + Krzysztof Jelski
 + Adam Pierzchala
 + Martin Van Dijken
+
+
 
 **Bug fixes**
 

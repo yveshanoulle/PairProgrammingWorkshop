@@ -1,94 +1,145 @@
 # Small Exercises {#Exercises}
-The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The idea is that the participants will do extreme promiscuing pairing. Every 15 minutes they will shift partner.
+The next pages contain a lot of small exercises. The idea is to print them and distribute them to the different workshop participants. The participants will then do extreme promiscuing pairing: Every 15 minutes they will change partner, if this is possible (if pairs do not finish at the same time, they do not have to swap partners).
 
 ## Sum of digits - Min and Max
-Write a program that generates 100 random numbers between 2000 and 3000. Among the generated numbers find and display the number with the largest and smallest sum of digits.
+Write a program that generates 100 random numbers between 2000 and 3000. Once the numbers have been generated, find and display the two numbers with the largest and smallest sum of digits. For instance, SumDigits(2825) = 2 + 8 + 2 + 5 = 17.
 
 ## Symmetric numbers
-Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find and display the number, which are "axially symmetric", which means that their records are of type XYYX.
+Write a program that generates 100 random numbers between 1000 and 9999. Once the numbers have been generated, find and display the numbers which are "axially symmetric", which means that their records are of type XYYX. For instance, 1221 is axially symmetric.
 
 ## Equilibrated numbers
-Write a program that generates 100 random numbers between 1000 and 9999. Among the generated numbers find the number of type, for which the sum of tens and ones is equal to the sum hundreds and thousands.
+Write a program that generates 100 random numbers between 1000 and 9999. Once the numbers have been generated, find the numbers for which the sum of tens and ones is equal to the sum of hundreds and thousands. For instance, 4426 is equilibrated because 4 + 4 = 2 + 6.
 
 ## Who and what
-Write a program that read from words (strings) from standard input. Every word starts with a large or small letter. The program reads up to 10 words. After that the scratch starts with writing to standard output (screen). If the word begins with a capital letter (e. g., "Sarah"), it prints out the sentences: "Who? Sarah "and jumps on a new line. If the word starts with a small letter (e.g. "singing") displayed "What? singing, "and jumps in new line.
+Write a program that reads words (strings) from the standard input. Every word will start with either a large or a small letter. The program will read up to 10 words, with some way of detecting when the user has finished inputting words. After that, the program starts writing to the standard output (screen). For each word, if it begins with a capital letter (eg "Sarah"), the program prints out the sentence: "Who? Sarah" and starts a new line. If the word starts with a small letter (eg "singing"), it prints out "What? singing", and starts a new line.
 
-## The number with the most devisors - Input
-Write a program that read from standard input integers. Inputs are between 1 and 1000. The user ends the entering with typing 0 Find the number with the maximum number of divisors.
+## The number with the most divisors - Input
+Write a program that reads integers from the standard input. Inputs should be between 1 and 1000. The user ends the input by entering 0. Find the number with the maximum number of divisors. For instance, if the inputs are 12 and 5: 12 has six divisors (1, 2, 3, 4, 6, and 12). But 5 only has two divisors (1 and 5).
 
 ## "Root-ing"
-Some numbers are very "nice" for rooting- the root of the number 16, for
-example, is precisely 4. With some of the numbers rooting is not easy at
-all- root of the number 15, for example, can not be expressed in any other way.
+Some numbers are very "nice" for rooting - the root of the number 16, for example, is precisely 4. But for some numbers, rooting is not easy at all - the root of the number 15, for example, cannot be expressed as a decimal.
 
-The third group of numbers could be partially expressed by root. An example of this number is 80, since 80 = 16 * 5, then (root 80) = (root 16) * (square root 5) = 4 * (root 5). This was partly roots 80, as it reminds under the root only 5.
+Some numbers can be partially expressed by root. An example of a number like this is 80, which can be expressed as 4 * (root 5). This is because 80 = 16 * 5, so (root 80) = (root 16) * (root 5) = 4 * (root 5).
 
-Write a program that will ask for an integer that is smaller than 30,000,
-and writes the partial roots.
+Write a program that will ask for an integer that is smaller than 30,000, and will then write its partial roots.
 
-Input: 16
+### EXAMPLES:
 
-Output: 4-TIMES SQRT OF 1
++ Input: 16
++ Output: 4-TIMES SQRT OF 1
 
-Input: 15
++ Input: 15
++ Output: 1-TIMES SQRT OF 15
 
-Output: 1- TIMES SQRT OF 15
-
-Input: 80
-
-Output: 4-TIMES SQRT OF 5
++ Input: 80
++ Output: 4-TIMES SQRT OF 5
 
 ## Gambling
-Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will "throw" the cube as long as the sum of all outcomes does not exceed 100. The program should print out after each "throw" of the last outcome and the total sum. Finally, print out the total number of dice throws.
+Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will keep "throwing" the dice as long as the sum of all throws does not exceed 100. After each "throw", the program should print out the last throw and the total sum. When a throw takes the total over 100, the program will stop. Finally, print out the total number of dice throws.
+
+### SAMPLE FINAL OUTPUT:
+
++ Last throw: 2
++ Sum of all throws: 99
++ Total number of throws: 34
+
+## Armstrong numbers
+Write a program that computes all Armstrong numbers between 0 and 999. An Armstrong number is a number such that the sum of its digits raised to the third power is equal to the number itself. For example, 371 is an Armstrong number, since 3^3 + 7^3 + 1^3 = 371.
+
+## Fibonacci series
+Write a program to print the Fibonacci series up to a given number. That given number must be randomly generated by the application and printed to the output. It must be between 0 and 100. It must be a Fibonacci number: It will be the last one of the series.
+
+The Fibonacci series is a well known number series, in which each number is equal to the sum of the previous two numbers. The first two numbers are always 1, 1. Here are the first five numbers: 1, 1, 2, 3, 5.
+
+## Multiplication table
+Write a program that prints out the ten multiplication tables for 1 to 10.
 
 ## Anadiploza
-Anadiploza is a word which is composed of two successive equal parts eg. Barbara. Write a program to determine whether a word that is entered via the keyboard, is an anadiploza or not. The program doesn't separate among small and large letters.
+An anadiploza is a word which starts with two successive equal parts, eg Barbara. Write a program to determine whether a word that is entered via the keyboard, is an anadiploza or not. The program doesn't differentiate between small and large letters.
 
-## Number of digits - Input
-Write a program that reads integers from standard input. Input numbers are between 1 and 1000. Entering numbers is ended with the typing X. Find and print the number with the biggest count of digits.
+## Number of digits
+Write a program which reads integers from the standard input. The numbers should be between 1 and 1000. Entering numbers is ended by typing X. Find and print the number with the largest number of digits. 
 
-## Two numbers with the most devisors
-Write a program that generates 100 random numbers between 2000 and 5000. Among the generated numbers find and display two different numbers with the most divisors.
+## Two numbers with the most divisors
+Write a program that generates 100 random numbers between 2000 and 5000. Once the numbers have been generated, find and display two different numbers with the most divisors. For instance, if the inputs are 12, 6 and 5: 12 has six divisors (1, 2, 3, 4, 6, and 12). 6 has four divisors (1, 2, 3, and 6). But 5 only has two divisors (1 and 5).
 
 ## Divisible by the sum of digits
-Write a program that will print all those natural numbers between 2000 and 5000 that are divisible by the sum of its digits. Print in each line the numbers and the sum of its digits.
+Write a program that will print all the natural numbers between 2000 and 5000 that are divisible by the sum of their digits. Print on each line the number and the sum of its digits.
 
-**Examples:** 555 15 ... 1000 1
+### EXAMPLES:
+
++ 555 15
++ 1000 1
++ 234 9
 
 ## Count vowels
-Write a program that creates two characters (sprites), one read 10 words. Words entered by user are strings of random ASCII characters to be completed by pressing Enter.
-Other character (sprite) counts and returns the number of vowels. The word may consist of large and / or lowercase letters. Display the word with the most vowels.
+Write a program that creates two characters (sprites). The first character (sprite) reads 10 words, entered by the user. These words will be strings of random ASCII characters. Each word will be completed by pressing Enter.
+
+The second character (sprite) will count and return the number of vowels. Each word may consist of uppercase and / or lowercase letters. Finally, display the word with the most vowels.
 
 ## A large number - The sum of digits
-Write a program that reads the 20 digit number and print out the number of frequencies of '0 ', '1', '2 '..'9' and the sum of its digits.
+Write a program that reads a 20-digit number and prints out the number of frequencies of '0', '1', '2' .. '9' and the sum of its digits.
+
+### EXAMPLE:
+
+**Input:**
+
++ 00000000001111111111
+
+**Output:**
+
++ 0: 10
++ 1: 10
++ 2: 0
++ 3: 0
++ 4: 0
++ 5: 0
++ 6: 0
++ 7: 0
++ 8: 0
++ 9: 0
++ Sum of digits: 10
 
 ## Stuttering
-Write a program that will stutter words. Program reads the following three characteristics (data), namely: the word that should be shuttered, how many characters from the beginning of words and the frequency of the shuttered part. The program should check the suitability of the data, which means that the number of shuttered signs can not exceed the length of the words and number of repetitions must be non-negative number. If data are not adequate, the program displays an appropriate message. The program ends with entering the word "END".
+Write a program that will stutter words. The program will read the following three sets of inputs, namely: 
 
-**Examples:**
+1) The words that should be stuttered,
 
-Word: kodak
+2) How many characters from the beginning of each word should be stuttered,
 
-Word: panika
+3) The frequency of the stuttered part for each word. 
 
-Word: cry
+The program should check the suitability of the data, which means that the number of stuttered characters can not exceed the length of the word, and the number of repetitions must be a non-negative number. 
 
-Word: end
+If the inputs are not adequate, the program displays an appropriate message. 
 
-Num of ch: 2
+The first set of inputs is ended by inputting the word "END". 
 
-Num of ch: 2
+After that, the program will ask for the other inputs and then output the stuttered words.
 
-Num of ch: 1
+### EXAMPLE RUN:
 
-Frequency: 2
+**Words:**
 
-Frequency: 0
++ Word: kodak  
++ Word: panika  
++ Word: cry  
++ Word: end
 
-Frequency: 5
+**Characters:**
 
-Answer: kokodak
++ Num of ch: 2  
++ Num of ch: 2  
++ Num of ch: 1
 
-Answer: nika
+**Frequencies:**
 
-Answer: cccccry
++ Frequency: 2  
++ Frequency: 0  
++ Frequency: 5
+
+**Output:**
+
++ Answer: kokodak  
++ Answer: nika  
++ Answer: cccccry

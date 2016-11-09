@@ -13,8 +13,11 @@ This workshop was invented in 2009.
 + Version 6.26 Added Pairing Anti-Pattern in library and made bugfix
 + Version 6.27 Added a book list every developer should read
 + Version 6.31 Added a book cover
++ Version 7.11 A review of the English language
++ Version 7.23 Added recurring exercises.
+
+
+
+
  
-
-
-
 

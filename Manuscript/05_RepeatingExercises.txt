@@ -1,0 +1,43 @@
+﻿# Repeating Exercises {#RepeatingExercises}
+The next pages contain a lot of repeating exercises. The idea is to print them and distribute them to the different workshop participants. The participants will then do extreme promiscuing pairing: Every 10 minutes they will change partner, if this is possible (if pairs do not finish at the same time, they do not have to swap partners).
+The difference between these exercises and the previous ones, is that here we have a set of exerices that build on each other. We hope that with these exercises, students will realise that they still have to think about quality. 
+
+## Gambling
+Lucky knows that gambling is a tough task. Write him a program that will simulate throwing dice so that the program will keep "throwing" the dice as long as the sum of all throws does not exceed 100. After each "throw", the program should print out the last throw and the total sum. When a throw takes the total over 100, the program will stop. Finally, print out the total number of dice throws.
+
+## Gambling 2 
+In order to be a successful gambler, Lucky realises he needs to know his statistics. At the end of the game, he still wants the number of dice throws in total, but he also wants to know how many times each individual result has been thrown.
+
+## Gambling 3
+Thanks to our program, Lucky is starting to win more and starts betting on other types of game. He discovers that there are polyhedral dice, and that there are games like Dungeons & Dragons that use them. So now we will adjust our program to use random polyhedral dice instead of six-sided dice. 
+
+We have dice with 2, 3, 5, 7, 12, 14, 16, 18, 24, 30, 34, 48, 50, 60, 100 and 120 sides. With every throw we have to use a random dice, and for our final output we want to know which side of which dice has been thrown and how many times.
+
+##Dice Game part 1 - One throw of the dice
+I want a program that outputs the result of a random dice throw. We will be using standard dice with 6 sides for this game.
+
+##Dice Game part 2 - Several throws of the dice
+The player must throw 5 standard dice at once instead of 1. We want the output of all 5 dice.
+
+##Dice Game part 3 - Rethrow some dice
+The player can throw the dice a maximum of 3 times. However with the rethrows, there is an extra rule: The player may not rethrow every dice.
+The dice that have the same results cannot be thrown again.
+For example:
+In throw 1 the player throws 4, 5, 6, 4, 1. In the rethrow she may only throw 3 dice, since she has "lost" the two equal dice (in this case, those which show the number 4).
+In throw 2 she throws 1, 5, 3. In the last throw she can still use 3 dice.
+In throw 3 she throws 1, 1 and 5.
+
+In all throws but the final throw, the score is the sum of all the repeated results. So in throw 1, she scores 8 (2 times 4). In throw 2 she scores nothing, since she had no duplicated results.
+In the final throw we count all the results, so she scores 7 and her final score is 15.
+
+It is possible that the player's turn ends after 1 or 2 throws.
+
+##Dice Game final part - Nobody likes to play alone
+The final part of this game is very simple: Noboby likes to play alone. The application should now give the throws and the scores of multiple players.
+The application should also output the ranking of the players (eg 1st, 2nd, 3rd, 4th). The number of players should be random, between 2 and 4.
+
+## Lotto predictor for Belgium
+Like everyone, I would like to win the lottery. Luckely I got some great developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
+
+## Lotto predictor for UK and Germany
+I want to increase my changes of winning so I'm gonna play on the lotto in multiple countries. Write me a program that predicts the result for Belgium, UK and Germany. In the UK and Germany they play with 49 balls.

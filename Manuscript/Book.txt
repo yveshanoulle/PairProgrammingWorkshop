@@ -4,8 +4,9 @@
 03_TrainerInstructions.txt
 
 04_Exercises.txt
-05_LargeExercise.txt
-06_ExampleStory.txt
+05_RepeatingExercises.txt
+06_LargeExercise.txt
+07_ExampleStory.txt
 
 12_Observation.txt
 13_Feedback.txt

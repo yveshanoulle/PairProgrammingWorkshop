@@ -1,16 +1,30 @@
 # About the authors {#Authors}
 
+**Clare Sudbery:**
+
+I have been a software engineer for 17 years. I currently work at LateRooms.com, in the UK. I have been working with XP for some years, and am increasingly talking, writing and leading workshops in techniques such as pair programming and TDD. I also write and talk about how to improve the experience of women in software engineering.
+
+I believe workplaces are about people. I am very interested in all the ways in which we can use communication and collaboration to improve the work we do and the experiences we have at work.
+
+I am also a maths geek, an ex maths teacher, a novelist, a singer and a chatterbox. :)
+
+* [My website](https://medium.com/a-woman-in-technology)
+* [Events I have been involved with](https://medium.com/a-woman-in-technology/events-28336c2586df)
+* [Places I have been published](https://medium.com/a-woman-in-technology/links-eb4e2a0a7a43)
+* [Twitter](https://twitter.com/claresudbery)
+* [LinkedIn](https://www.linkedin.com/in/clare-sudbery)
+
 **Yves Hanoulle:**
 
 I started working in IT in 1994. I worked as software support, developer, team lead, trainer, agile coach. I believe that IT is mainly about working with people. A skill that can never be learned enough. 
 
 Yearly I spend at least 10 % of my revenue on training and books (You can find details and recommendations on my linkedin profile.)
 
-After my father invented the term PairCoaching, I started to use it to promote pairwork. When I don't work as an agile coach helping companies in EMEA, talking at conferences around the world about agile or the core protocols, I'm using agile idea’s to raise my 3 kids. (And I use what I learn from them when I work with teams.)
+After my father invented the term PairCoaching, I started to use it to promote pairwork. When I don't work as an agile coach helping companies in EMEA, talking at conferences around the world about agile or the core protocols, I'm using agile ideas to raise my 3 kids. (And I use what I learn from them when I work with teams.)
 
 Since December 2012, I work from a [walking desk](http://www.hanoulle.be/2013/02/im-working-from-a-walking-desk/). Check out the link to see how many steps I took since then. 
 
-I'm a big fan of parent pair work with their children. I have already given a presentation with my whole family in 2011 and since December 2014, I’m giving pair presentations with my oldest son Joppe. 
+I'm a big fan of parent pair work with their children. I have already given a presentation with my whole family in 2011 and since December 2014, Im giving pair presentations with my oldest son Joppe. 
 
 I have also released [anguis](https://www.anguis.be), a (Dutch) android game that I have parent pair programming written with Joppe.
 
@@ -46,3 +60,4 @@ You can find my books at [http://www.hanoulle.be/books](http://www.hanoulle.be/b
 Objectsoft bvba,
 Congregatiestraat 16, 
 9031 Drongen
+
