@@ -7,15 +7,19 @@ With this workshop we would like people to experience what pair programming is.
 
 ## Process and timetable
 
-+ Total time: 180 min
-+ Introduction of facilitator: 5 minutes
-+ Introduction to group: 10 minutes (up to 20 people)
++ Total time: 3/4/8 hours
++ Introduction of facilitators: 5 minutes
++ Introduction of the group: 10 minutes (up to 20 people)
++ Theory (30 mins for 3 hour workshop. 1 hour for 4/8 hour workshop)
 + What
 + Why
 + Resistance
 + When
 + How
 + Smells
-+ Small exercises
-+ Large exercise
-+ Large joined retrospective 30 minutes (at the end)
+
++ Small exercises (total workshop - introduction, theory and retrospective time.)
+
++ Large exercise (In a one day version of the workshop you work for half a day on one big application with the full team, on different stories that are connected. )
+
++ Large joined retrospective: 30 minutes (at the end)

@@ -9,6 +9,9 @@ We would like to **THANK**:
 **People that have given numerous tips:**
 
 + Eric Talboom
++ Krzysztof Jelski
++ Adam Pierzchala
++ Martin Van Dijken
 
 **Bug fixes**
 

@@ -6,7 +6,7 @@ As for any workshop or training, try to be in the room 15 to 20 minutes before t
 The ideal layout for this workshop, is to have a large room with place for a circle of 22 chairs and one big table with one computer per 2 participants.
 You create the first circle with 20 chairs + chairs for both trainers. (We strongly advice you coach this workshop with two trainers.) This is the circle where you start the workshop, explain everything and hold the feedback round.
 
-Next to that circle, you have a large table with 10 computers (next to your own). You can work with the normal computer setup for a the developers, yet we have noticed that having everyone in the same room and even at the same table, works even better for the sharing of knowledge.
+Next to that circle, you have a large table with 10 computers (next to your own). You can work with the normal computer setup for the developers, yet we have noticed that having everyone in the same room and even at the same table, works even better for the sharing of knowledge.
 
 + Put a timer clock in front of you.
 + Have a printed copy of this document for each trainer.
