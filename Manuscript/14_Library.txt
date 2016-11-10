@@ -48,5 +48,5 @@
 + [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency-ebook/dp/B004SOVC2Y), Tom De marco
 + [Timeless way of Building, the](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028/, Alexander
 + [Toyota way, the](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319), Jeffrey Liker
-+ [Working effectivly with legacy code](), Michael C. Feathers
-+ [Writing Solid Code](), Steve Maguire
++ [Working effectivly with legacy code](https://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/), Michael C. Feathers
++ [Writing Solid Code](https://www.amazon.com/Writing-Solid-Code-20th-Anniversary/dp/1570740550/), Steve Maguire
