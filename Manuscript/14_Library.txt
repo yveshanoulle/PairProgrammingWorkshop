@@ -15,28 +15,28 @@
 + [How to Piss off your pair](http://c2.com/cgi/wiki?HowToPissOffYourPair), The internet
 + [Pair programming Anti Patterns](https://www.youtube.com/watch?v=ReuFZYtGeCc), Naresh Jain, JB Rainsberger
 + [Pair Staircase](http://agilefaqs.com/pair-stairs.html)
-+ [Pair programming illuminated](), Williams, Kessler
++ [Pair programming illuminated](https://www.amazon.com/Pair-Programming-Illuminated-Laurie-Williams/dp/0201745763), Williams, Kessler
 + [Rethinking Pair-Programming](https://www.voxxed.com/blog/2015/10/rethinking-pair-programming/), Sandro Mancuso
 + [Does PairProgramming work](https://davenicolette.wordpress.com/2013/07/06/does-pair-programming-work/ ), Dave Nicolette
 
 ## Great books "every" developer should read
 
 + [About Face](http://www.amazon.com/About-Face-Essentials-Interaction-Design-ebook/dp/B00MFPZ9UY/), Alan Cooper
-+ [Agile Retrospectives](), Esther Derby, Diana Larsen
++ [Agile Retrospectives](https://www.amazon.com/Agile-Retrospectives-Making-Pragmatic-Programmers-ebook/dp/B00B03SRJW), Esther Derby, Diana Larsen
 + [Agile Software Development, Principles, Patterns, and Practices](http://www.amazon.com/dp/0135974445), Robert C. Martin
 + [Beautiful Code](http://www.amazon.com/Beautiful-Code-Leading-Programmers-Practice-ebook/dp/B0026OR2NG), Andy Oram
 + [Beautiful Architecture: Leading Thinkers Reveal the Hidden Beauty in Software Design](http://www.amazon.com/Beautiful-Architecture-Leading-Thinkers-Software-ebook/dp/B0043GXMRA/), Diomidis Spinellis
 + [Cathedral and the Bazaar, the] (http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/), Eric S Raymond
-+ [Clean Code](), Robert C. Martin
-+ [Clean Coder](), Robert C. Martin
-+ [Code Complete](), Steve McConnel
-+ [Death March](), Yourdon
-+ [Design of everyday things, the](), Donald A Norman
-+ [Dynamics of software development](), Jim McCarthy
-+ [Extreme programming explained](), Kent Beck
-+ [Goal, the ](), Goldratt
-+ [How buildings learn](), Steward Brand
-+ [Implementing lean software development](), Poppendieck
++ [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/), Robert C. Martin
++ [Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers-ebook/dp/B0050JLC9Y), Robert C. Martin
++ [Code Complete](https://www.amazon.com/Code-Complete-Developer-Best-Practices-ebook/dp/B00JDMPOSY), Steve McConnel
++ [Death March](https://www.amazon.com/Death-March-2nd-Edward-Yourdon/dp/013143635X), Yourdon
++ [Design of everyday things, the](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded-ebook/dp/B00E257T6C), Donald A Norman
++ [Dynamics of software development](https://www.amazon.com/Dynamics-Software-Development-Pro-Best-Practices/dp/0735623198), Jim McCarthy
++ [Extreme programming explained](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0201616416/), Kent Beck
++ [Goal, the ](https://www.amazon.com/Goal-Process-Ongoing-Improvement-ebook/dp/B002LHRM2O), Goldratt
++ [How buildings learn](https://www.amazon.com/How-Buildings-Learn-Happens-Theyre-ebook/dp/B00AFZ3PI4/), Steward Brand
++ [Implementing lean software development](https://www.amazon.com/Implementing-Lean-Software-Development-Addison-Wesley-ebook/dp/B00HNB3VQE/), Poppendieck
 + [Lean In](), Sheryl Sandberg
 + [Mythical man month, the](), Brooks
 + [Object Thinking](), David West
@@ -46,7 +46,7 @@
 + [Rapid Development](), Steve McConnel
 + [Seven habits of effective people, the](), Stephan Covey
 + [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency-ebook/dp/B004SOVC2Y), Tom De marco
-+ [Timeless way of Building, the](), Alexander
-+ [Toyota way, the](), Jeffrey Liker
++ [Timeless way of Building, the](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028/, Alexander
++ [Toyota way, the](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319), Jeffrey Liker
 + [Working effectivly with legacy code](), Michael C. Feathers
 + [Writing Solid Code](), Steve Maguire
