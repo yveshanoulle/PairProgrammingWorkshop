@@ -38,8 +38,8 @@
 + [How buildings learn](https://www.amazon.com/How-Buildings-Learn-Happens-Theyre-ebook/dp/B00AFZ3PI4/), Steward Brand
 + [Implementing lean software development](https://www.amazon.com/Implementing-Lean-Software-Development-Addison-Wesley-ebook/dp/B00HNB3VQE/), Poppendieck
 + [Lean In](https://www.amazon.com/Lean-Women-Work-Will-Lead-ebook/dp/B00BBA6FOI/), Sheryl Sandberg
-+ [Mythical man month, the]https://www.amazon.com/Object-Thinking-Developer-Reference-David-ebook/dp/B00JDMPOKM(https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14), Brooks
-+ [Object Thinking](), David West
++ [Mythical man month, the](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14), Brooks
++ [Object Thinking](https://www.amazon.com/Object-Thinking-Developer-Reference-David-ebook/dp/B00JDMPOKM), David West
 + [Peopelware](https://www.amazon.com/gp/product/B00DY5A8X2/), De Marco & Lister
 + [Pragmatic Programmer, the](https://www.amazon.com/gp/product/B003GCTQAE/), Hunt, Thomas
 + [Psychology of computer programming, the](https://www.amazon.com/Psychology-Computer-Programming-Silver-Anniversary-ebook/dp/B004R9QACC), Jerry Weinberg
