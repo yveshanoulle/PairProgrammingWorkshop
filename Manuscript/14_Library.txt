@@ -26,7 +26,7 @@
 + [Agile Software Development, Principles, Patterns, and Practices](http://www.amazon.com/dp/0135974445), Robert C. Martin
 + [Beautiful Code](http://www.amazon.com/Beautiful-Code-Leading-Programmers-Practice-ebook/dp/B0026OR2NG), Andy Oram
 + [Beautiful Architecture: Leading Thinkers Reveal the Hidden Beauty in Software Design](http://www.amazon.com/Beautiful-Architecture-Leading-Thinkers-Software-ebook/dp/B0043GXMRA/), Diomidis Spinellis
-+ [Cathedral and the Bazaar, the] (http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/), Eric S Raymond
++ [Cathedral and the Bazaar, the](http://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary-ebook/dp/B0026OR3LM/), Eric S Raymond
 + [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/), Robert C. Martin
 + [Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers-ebook/dp/B0050JLC9Y), Robert C. Martin
 + [Code Complete](https://www.amazon.com/Code-Complete-Developer-Best-Practices-ebook/dp/B00JDMPOSY), Steve McConnel
@@ -46,7 +46,7 @@
 + [Rapid Development](https://www.amazon.com/Rapid-Development-Developer-Best-Practices-ebook/dp/B00JDMPOB6/), Steve McConnel
 + [Seven habits of effective people, the](https://www.amazon.com/Habits-Highly-Effective-People-Powerful-ebook/dp/B00GOZV3TM/), Stephan Covey
 + [Slack](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency-ebook/dp/B004SOVC2Y), Tom De marco
-+ [Timeless way of Building, the](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028/, Alexander
++ [Timeless way of Building, the](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028/), Alexander
 + [Toyota way, the](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319), Jeffrey Liker
 + [Working effectivly with legacy code](https://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/), Michael C. Feathers
 + [Writing Solid Code](https://www.amazon.com/Writing-Solid-Code-20th-Anniversary/dp/1570740550/), Steve Maguire
