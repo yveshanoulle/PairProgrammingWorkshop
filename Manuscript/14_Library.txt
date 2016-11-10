@@ -6,9 +6,9 @@
 + [All I Really Need to Know about Pair Programming I Learned In Kindergarten](http://collaboration.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF), Laurie A Williams
 + [Pomodoro Technique](http://www.pomodorotechnique.com/), Francesco Cirillo
 + [The Core Protocols]( http://alturl.com/b9fn), Jim & Michele McCarthy
-+ [The Costs and Benefits of Pair Programming](), Laurie Williams & Alistair Cockburn
-+ [Strengthening the Case for Pair-Programming](), Laurie Williams, Robert R. Kessler, Ward Cunningham & Ron Jeffries
-+ [On the Economic Feasibility of Pair Programming](), Hakan Erdogmus & Laurie Williams
++ [The Costs and Benefits of Pair Programming](http://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF), Laurie Williams & Alistair Cockburn
++ [Strengthening the Case for Pair-Programming](http://collaboration.csc.ncsu.edu/laurie/Papers/ieeeSoftware.PDF), Laurie Williams, Robert R. Kessler, Ward Cunningham & Ron Jeffries
++ [On the Economic Feasibility of Pair Programming](https://pdfs.semanticscholar.org/3918/81acebcf21072364316b812617c06140f67f.pdf), Hakan Erdogmus & Laurie Williams
 + [Pair Programming and expertise](http://salfreudenberg.wordpress.com/2013/06/08/pair-programming-and-expertise/), Sal Freudenberg
 + [Pair Programming uptake and Peripheral Awareness](http://salfreudenberg.wordpress.com/2013/06/15/pair-programming-uptake-and-peripheral-awareness/), Sal Freudenberg
 + [Pair programming: pluses and minuses, bonuses and anti-patterns](http://altabel.wordpress.com/2013/05/24/pair-programming-pluses-and-minuses-bonuses-and-anti-patterns/), Nadya Klim
