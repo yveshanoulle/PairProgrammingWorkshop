@@ -22,6 +22,7 @@
 + [So how good is pair programming, really?](https://raygun.com/blog/2015/11/how-good-is-pair-programming-really/), Rickard Dahlstrom
 + [Pair Programming Benefits - Two Heads Are Better than One](https://pragprog.com/magazines/2011-07/pair-programming-benefits), Jeff Langr & Tim Ottinger (Shorter reading, good for showing to management)
 + [The Case for Collaborative Programming](https://www.researchgate.net/profile/John_Nosek/publication/27295641_The_Case_for_Collaborative_Programming/links/54a818df0cf257a6360bdc1b.pdf), Nosek 1998
++ [Pair programming in teams with diverse skill and experience levels](https://medium.com/learning-teaching-pairing) multiple authors
 + [Roles in Pair-Programming Across Skill: Leader/Adopter Model](https://medium.com/learning-teaching-pairing/roles-in-pair-programming-across-skill-leader-adopter-model-2e2b9a15fcfb), Irena 2017 
 + [Root causes of friction in pairs: Expert Induced Amnesia](https://medium.com/learning-teaching-pairing/root-causes-of-friction-in-pairs-expert-induced-amnesia-6cc80aee0d4d), Irena 2017 
 
