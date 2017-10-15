@@ -22,6 +22,8 @@
 + [So how good is pair programming, really?](https://raygun.com/blog/2015/11/how-good-is-pair-programming-really/), Rickard Dahlstrom
 + [Pair Programming Benefits - Two Heads Are Better than One](https://pragprog.com/magazines/2011-07/pair-programming-benefits), Jeff Langr & Tim Ottinger (Shorter reading, good for showing to management)
 + [The Case for Collaborative Programming](https://www.researchgate.net/profile/John_Nosek/publication/27295641_The_Case_for_Collaborative_Programming/links/54a818df0cf257a6360bdc1b.pdf), Nosek 1998
++ [Roles in Pair-Programming Across Skill: Leader/Adopter Model]
+(https://medium.com/learning-teaching-pairing/roles-in-pair-programming-across-skill-leader-adopter-model-2e2b9a15fcfb), Irena 2017 
 
 ## Great books "every" developer should read
 
