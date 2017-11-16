@@ -25,6 +25,7 @@
 + [Pair programming in teams with diverse skill and experience levels](https://medium.com/learning-teaching-pairing) multiple authors
 + [Roles in Pair-Programming Across Skill: Leader/Adopter Model](https://medium.com/learning-teaching-pairing/roles-in-pair-programming-across-skill-leader-adopter-model-2e2b9a15fcfb), Irena 2017 
 + [Root causes of friction in pairs: Expert Induced Amnesia](https://medium.com/learning-teaching-pairing/root-causes-of-friction-in-pairs-expert-induced-amnesia-6cc80aee0d4d), Irena 2017 
++ [The needs aspects of Pair Programming](https://medium.com/learning-teaching-pairing/the-needs-aspect-of-pair-programming-702777fc1ec1), Irena 2017
 
 ## Great books "every" developer should read
 
