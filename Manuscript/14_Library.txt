@@ -26,7 +26,10 @@
 + [Roles in Pair-Programming Across Skill: Leader/Adopter Model](https://medium.com/learning-teaching-pairing/roles-in-pair-programming-across-skill-leader-adopter-model-2e2b9a15fcfb), Irena 2017 
 + [Root causes of friction in pairs: Expert Induced Amnesia](https://medium.com/learning-teaching-pairing/root-causes-of-friction-in-pairs-expert-induced-amnesia-6cc80aee0d4d), Irena 2017 
 + [The needs aspects of Pair Programming](https://medium.com/learning-teaching-pairing/the-needs-aspect-of-pair-programming-702777fc1ec1), Irena 2017
++ [Remote Pair Programming](http://sedano.org/toddsedano/2016/11/07/remote-pair-programming.html), Todd Sedano
 + [Considerate Pair Programming - Part 1](http://sedano.org/toddsedano/2017/10/24/considerate-pair-programming.html)
++ [Considerate Pair Programming - Part 2](http://sedano.org/toddsedano/2017/10/23/considerate-pair-programming.html)
++ [Considerate Pair Programming - Part 3](http://sedano.org/toddsedano/2017/10/22/considerate-pair-programming.html)
 
 ## Great books "every" developer should read
 
