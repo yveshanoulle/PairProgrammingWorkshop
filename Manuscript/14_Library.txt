@@ -33,6 +33,8 @@
 + [How to pair effectively in 6 steps](https://gds.blog.gov.uk/2018/02/06/how-to-pair-program-effectively-in-6-steps/)
 + [Llewellyn’s strong-style pairing](http://llewellynfalco.blogspot.be/2014/06/llewellyns-strong-style-pairing.html)
 + [Pair Programming: Taking turns with your pair](https://medium.com/@marlenac/pair-programming-taking-turns-with-your-pair-32fc344d62b9)
++ [The Three Pairs of Pair Programming](https://medium.com/@cdkirkwood_43513/the-three-pairs-of-pair-programing-f8be9972b67)
+
 
 ## Great books "every" developer should read
 
