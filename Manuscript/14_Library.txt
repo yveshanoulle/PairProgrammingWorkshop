@@ -32,6 +32,7 @@
 + [Considerate Pair Programming - Part 3](http://sedano.org/toddsedano/2017/10/22/considerate-pair-programming.html)
 + [How to pair effectively in 6 steps](https://gds.blog.gov.uk/2018/02/06/how-to-pair-program-effectively-in-6-steps/)
 + [Llewellyn’s strong-style pairing](http://llewellynfalco.blogspot.be/2014/06/llewellyns-strong-style-pairing.html)
++ [Pair Programming: Taking turns with your pair](https://medium.com/@marlenac/pair-programming-taking-turns-with-your-pair-32fc344d62b9)
 
 ## Great books "every" developer should read
 
