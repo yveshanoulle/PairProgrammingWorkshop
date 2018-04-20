@@ -4,6 +4,7 @@ This is a list of the countries we know the game was played in.
 
 + Belgium
 + France
++ Germany
 + Netherlands
 + Poland
 + Switzerland
