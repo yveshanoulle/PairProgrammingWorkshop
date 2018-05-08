@@ -35,6 +35,7 @@
 + [Pair Programming: Taking turns with your pair](https://medium.com/@marlenac/pair-programming-taking-turns-with-your-pair-32fc344d62b9)
 + [The Three Pairs of Pair Programming](https://medium.com/@cdkirkwood_43513/the-three-pairs-of-pair-programing-f8be9972b67)
 + [The powerdynamics in PairProgramming - Twitter thread](https://twitter.com/sarahmei/status/991001357455835136)
++ [Power dynamics in pairs and mobs](http://visible-quality.blogspot.be/2018/05/power-dynamics-in-pairs-and-mobs.html)
 
 
 
