@@ -36,6 +36,12 @@ It is possible that the player's turn ends after 1 or 2 throws.
 The final part of this game is very simple: Noboby likes to play alone. The application should now give the throws and the scores of multiple players.
 The application should also output the ranking of the players (eg 1st, 2nd, 3rd, 4th). The number of players should be random, between 2 and 4.
 
+##Dice Game part 5 - Role-playing
+My girlfriend is jealous of our game/application. She likes to play role-playing games and she would like to use our game, there is only one problem.
+In the role-playing world they don't always use 5 dices or standard dices. Can you adjust the game so that you can give any number of dices to play with and any number of sides for the dices.
+All the dices must have equal sides and the rules of the game don't change.
+For example: You can play the game with 10 dices, and a dice has 20 sides. But all the dices are the same and have 20 sides.
+
 ## Lotto predictor for Belgium
 Like everyone, I would like to win the lottery. Luckely I got some great developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
 
