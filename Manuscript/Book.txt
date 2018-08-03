@@ -6,7 +6,8 @@
 04_Exercises.txt
 05_RepeatingExercises.txt
 06_LargeExercise.txt
-07_ExampleStory.txt
+07_FixingBugs.txt
+08_ExampleStory.txt
 
 12_Observation.txt
 13_Feedback.txt
