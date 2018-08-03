@@ -1,5 +1,5 @@
 # Fixing the bug {#FixingBugs}
-The next page contain an exercise where the participants must fix a bug.
+The next page contains an exercise where the participants must fix a bug.
 The idea is to print out the problem description and distribute it to the different workshop participants.
 It's best that the trainer provides a github link to the java-files / project needed for this, this way the participants don't have to spend their time on typing the assignment.
 The main point of this exercise is to check if the workshop participants fix the bug test driven and to see if they write tests for the edge cases.
