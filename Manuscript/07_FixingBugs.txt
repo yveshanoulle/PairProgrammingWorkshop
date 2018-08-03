@@ -5,13 +5,13 @@ It's best that the trainer provides a github link to the java-files / project ne
 The main point of this exercise is to check if the workshop participants fix the bug test driven and to see if they write tests for the edge cases.
 If the workshop participants refactor the code they get extra points, because the Gremlin class can be refactored.
 
-#Gremlins
-##Cute Mogwai and monsters
+# Gremlins
+## Cute Mogwai and monsters
 Mogwai can eat food:
 * Before midnight: nothing happens
 * After midnight: cute mogwai turns into a monster
 
-##Bug found
+## Bug found
 ON 7 O’clock: mogwai should be able to eat without turning into a monster. Because 7 O'clock is the end of the night.
 
 ## Provided Java-code
