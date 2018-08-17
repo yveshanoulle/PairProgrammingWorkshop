@@ -15,7 +15,8 @@ This workshop was invented in 2009.
 + Version 6.31 Added a book cover
 + Version 7.11 A review of the English language
 + Version 7.23 Added recurring exercises.
-+ Version 7.24 Added bug fixing exercises.
++ Version 7.24-31 Added books and web resources
++ Version 8.0 Added bug fixing exercises.
 
 
 
