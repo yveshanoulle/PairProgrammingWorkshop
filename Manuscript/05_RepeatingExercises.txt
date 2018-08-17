@@ -42,6 +42,11 @@ In the role-playing world they don't always use 5 dices or standard dices. Can y
 All the dices must have equal sides and the rules of the game don't change.
 For example: You can play the game with 10 dices, and a dice has 20 sides. But all the dices are the same and have 20 sides.
 
+##Dice Game part 6 - Role-playing-extension
+A default dice is white, we all know this. Now can you adjust the game that a dice also can have another color. With this the rules of the game change, equal dice now mean same number of eyes and equal color.
+Make sure the color is visible in all the printouts.
+It's hard to believe that we started from such a small dice game and now our role-playing friends can benefit to the max from our nice game.
+
 ## Lotto predictor for Belgium
 Like everyone, I would like to win the lottery. Luckely I got some great developers at my disposal, so I want to ask you to write a program that can predict the lottery numbers. In Belgium, the lottery uses 45 balls (which are never put back) and there are six balls drawn. Can you predict the outcome?
 
