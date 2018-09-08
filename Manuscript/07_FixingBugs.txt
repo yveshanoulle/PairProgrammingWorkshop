@@ -1,0 +1,71 @@
+# Fixing the bug {#FixingBugs}
+The next page contains an exercise where the participants must fix a bug.
+The idea is to print out the problem description and distribute it to the different workshop participants.
+It's best that the trainer provides a github link to the java-files / project needed for this, this way the participants don't have to spend their time on typing the assignment.
+The main point of this exercise is to check if the workshop participants fix the bug test driven and to see if they write tests for the edge cases.
+If the workshop participants refactor the code they get extra points, because the Gremlin class can be refactored.
+
+# Gremlins
+
+### Cute Mogwai and monsters
+Mogwai can eat food:
+
+* Before midnight: nothing happens
+* After midnight: cute mogwai turns into a monster
+
+### Bug found
+ON 7 O’clock: mogwai should be able to eat without turning into a monster. Because 7 O'clock is the end of the night.
+
+## Provided Java-code
+
+{title=""Gremlin class which contains a bug", lang=java}
+~~~~~~~
+public class Gremlin {
+        public boolean canEat(final Date eatingTime) {
+            final Calendar calendar = getInstance();
+            calendar.setTime(eatingTime);
+            final int eatingHour = calendar.get(HOUR_OF_DAY);
+            return eatingHour > 7;
+        }
+}
+~~~~~~~
+
+{title=""GremlinTest class", lang=java}
+~~~~~~~
+import org.junit.Before;
+import org.junit.Test;
+
+import java.util.Calendar;
+import java.util.Date;
+
+import static java.util.Calendar.AUGUST;
+import static java.util.Calendar.getInstance;
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class GremlinTest {
+    private Gremlin gremlin;
+
+    @Before
+    public void setup() {
+        gremlin = new Gremlin();
+    }
+
+    @Test
+    public void canEat_givenDayTime_thenCanEat() {
+        final Calendar calendar = getInstance();
+        calendar.set(2018, AUGUST, 12, 16, 1);
+        final Date eatingTime = calendar.getTime();
+
+        assertThat(gremlin.canEat(eatingTime)).isTrue();
+    }
+
+    @Test
+    public void canEat_givenNightTime_thenCannotEat() {
+        final Calendar calendar = getInstance();
+        calendar.set(2018, AUGUST, 12, 1, 1);
+        final Date eatingTime = calendar.getTime();
+
+        assertThat(gremlin.canEat(eatingTime)).isFalse();
+    }
+}
+~~~~~~~
