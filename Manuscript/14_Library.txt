@@ -67,4 +67,4 @@
 + [Toyota way, the](https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319), Jeffrey Liker
 + [Working effectivly with legacy code](https://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/), Michael C. Feathers
 + [Writing Solid Code](https://www.amazon.com/Writing-Solid-Code-20th-Anniversary/dp/1570740550/), Steve Maguire
- 
++ [letspair](https://www.kickstarter.com/projects/marlenac/lets-pair) A set of zines about pair programming, an artsy print of a framework to help you get going & a plushy pear to be your pairing patronus.
