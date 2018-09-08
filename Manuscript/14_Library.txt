@@ -36,6 +36,7 @@
 + [The Three Pairs of Pair Programming](https://medium.com/@cdkirkwood_43513/the-three-pairs-of-pair-programing-f8be9972b67)
 + [The powerdynamics in PairProgramming - Twitter thread](https://twitter.com/sarahmei/status/991001357455835136)
 + [Power dynamics in pairs and mobs](http://visible-quality.blogspot.be/2018/05/power-dynamics-in-pairs-and-mobs.html)
++ [letspair](https://www.kickstarter.com/projects/marlenac/lets-pair) A set of zines about pair programming, an artsy print of a framework to help you get going & a plushy pear to be your pairing patronus.
 
 
 
@@ -72,4 +73,4 @@
 + [Turning the Ship around](https://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y), David Marquet
 + [Working effectivly with legacy code](https://www.amazon.com/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/), Michael C. Feathers
 + [Writing Solid Code](https://www.amazon.com/Writing-Solid-Code-20th-Anniversary/dp/1570740550/), Steve Maguire
-+ [letspair](https://www.kickstarter.com/projects/marlenac/lets-pair) A set of zines about pair programming, an artsy print of a framework to help you get going & a plushy pear to be your pairing patronus.
+
