@@ -37,6 +37,8 @@
 + [The powerdynamics in PairProgramming - Twitter thread](https://twitter.com/sarahmei/status/991001357455835136)
 + [Power dynamics in pairs and mobs](http://visible-quality.blogspot.be/2018/05/power-dynamics-in-pairs-and-mobs.html)
 + [letspair](https://www.kickstarter.com/projects/marlenac/lets-pair) A set of zines about pair programming, an artsy print of a framework to help you get going & a plushy pear to be your pairing patronus.
++ [Pair Programming – The Most Extreme XP Practice?](http://www.davefarley.net/?p=214) from Dave Farley
+
 
 
 
