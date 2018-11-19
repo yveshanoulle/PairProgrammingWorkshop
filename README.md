@@ -1,13 +1,5 @@
-GIT commando's
-
-Git add . 
-voegt alle nieuwe bestanden toe
-
-git commit -a -m "add yves"
-voegt alle wijzigingen toe op  de locale server
-
-
-
-git push
-laat de locale wijzigingen naar de centrale server
 # PairProgrammingWorkshop
+
+This repo contains all the full manual of the PairProgramming workshop.
+- the exercises
+- tips and tricks on how to facilitate the workshop
