@@ -2,4 +2,3 @@
 05_RepeatingExercises.txt
 06_LargeExercise.txt
 07_FixingBugs.txt
-08_ExampleStory.txt
