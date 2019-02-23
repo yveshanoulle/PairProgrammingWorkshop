@@ -1,3 +1,0 @@
-04_Exercises.txt
-05_RepeatingExercises.txt
-06_LargeExercise.txt
