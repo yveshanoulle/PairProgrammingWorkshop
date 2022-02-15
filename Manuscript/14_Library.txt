@@ -40,7 +40,7 @@
 + [Pair Programming – The Most Extreme XP Practice?](http://www.davefarley.net/?p=214) from Dave Farley
 + [Our First Experiment with Promiscuous Pairing Is a Success](https://engineering.itpro.tv/2018/12/07/our-first-experiment-with-promiscuous-pairing-is-a-success/) 
 + [Pair Programming May Lower Barriers to Women in Tech](https://code.likeagirl.io/pair-programming-may-lower-barriers-to-women-in-tech-f6e5b10517b)
-
++ [The ‘Tag Team’: Tools, tasks and roles in collaborative software development](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.436393) Thesis from Sallyann Freudenberg at University Of Sussex
 
 
 ## Great books "every" developer should read
